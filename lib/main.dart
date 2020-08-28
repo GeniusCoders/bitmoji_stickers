@@ -3,6 +3,7 @@ import 'package:BitmojiStickers/styles/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/screenutil.dart';
 
+import 'pages/bitmoji_stickers/bitmoji_stickers_page.dart';
 import 'pages/login/login_page.dart';
 
 void main() {
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
           ScreenUtil.init(context,
               width: 360.0, height: 780.0, allowFontScaling: false);
 
-          return DashboardPage();
+          return BitmojiStickerPage();
         }));
   }
 }
