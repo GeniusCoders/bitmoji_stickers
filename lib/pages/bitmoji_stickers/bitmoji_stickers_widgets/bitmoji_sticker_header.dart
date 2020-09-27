@@ -1,10 +1,19 @@
+import 'dart:io';
+
 import 'package:BitmojiStickers/styles/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
+import 'package:http/http.dart' show get;
+import 'package:path_provider/path_provider.dart';
 import 'button.dart';
+import 'package:path/path.dart';
 
 class BitmojiStickerHeader extends StatelessWidget {
+  final onPress;
+  final String avatar = "12430618-b508-4d2e-b2c8-17eaf61217b2";
+
+  const BitmojiStickerHeader({this.onPress});
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -37,10 +46,7 @@ class BitmojiStickerHeader extends StatelessWidget {
                 SizedBox(
                   height: 16.h,
                 ),
-                Button(
-                  isInstall: false,
-                  onPress: () {},
-                )
+                Button(isInstall: false, onPress: onPress)
               ],
             ),
           )

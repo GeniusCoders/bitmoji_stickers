@@ -30,5 +30,10 @@ class StickerBloc extends Bloc<StickerBlocEvent, StickerBlocState> {
         yield FailedState(error: e.toString());
       }
     }
+    if (event is DownloadAndStore) {
+      yield LoadingState();
+
+      try {} catch (e) {}
+    }
   }
 }

@@ -1,5 +1,6 @@
 class StickerResponse {
   List<StickerData> data;
+  Map<String, dynamic> config;
 
   StickerResponse({this.data});
 
@@ -9,6 +10,7 @@ class StickerResponse {
       json['data'].forEach((v) {
         data.add(StickerData.fromJson(v));
       });
+      config = json['config'];
     }
   }
 }

@@ -225,5 +225,73 @@
             ],
             "schedulable_id": "b4ef0d92-600d-48d8-b69c-006ae4182dfd"
         }
-    ]
+    ],
+    "config": {
+        "identifier": "goodnight",
+        "name": "GoodNight",
+        "publisher": "Jane Doe",
+        "tray_image_file": "tray-icon.png",
+        "image_data_version": "1",
+        "avoid_cache": false,
+        "publisher_email": "",
+        "publisher_website": "https://github.com/vincekruger/flutter_whatsapp_stickers",
+        "privacy_policy_website": "https://github.com/vincekruger/flutter_whatsapp_stickers",
+        "license_agreement_website": "https://github.com/vincekruger/flutter_whatsapp_stickers",
+        "stickers": [
+            {
+                "image_file": "goodnight_0.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "goodnight_1.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "goodnight_2.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "goodnight_3.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "goodnight_4.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "goodnight_5.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "goodnight_6.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "goodnight_7.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "goodnight_8.webp",
+                "emojis": [
+                    "☕"
+                ]
+            }
+        ]
+    }
 }

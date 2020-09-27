@@ -18,3 +18,5 @@ class StickersState extends StickerBlocState {
 
   StickersState({@required this.stickerResponse});
 }
+
+class DownloadAndStore extends StickerBlocState {}
