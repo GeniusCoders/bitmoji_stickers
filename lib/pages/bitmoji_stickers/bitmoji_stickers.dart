@@ -1,14 +1,16 @@
 import 'dart:convert';
 import 'dart:io';
-
+import 'dart:ui';
 import 'package:BitmojiStickers/bloc/sticker_bloc/sticker_bloc_bloc.dart';
 import 'package:BitmojiStickers/pages/models/stickers_model.dart';
+import 'package:BitmojiStickers/util/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:flutter_whatsapp_stickers/flutter_whatsapp_stickers.dart';
 import 'package:http/http.dart' show get;
 import 'package:path_provider/path_provider.dart';
-
+import 'package:image/image.dart' as img;
 import 'bitmoji_stickers_widgets/bitmoji_sticker_header.dart';
 import 'bitmoji_stickers_widgets/bitmoji_stickers_pack.dart';
 
@@ -27,6 +29,8 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
   File _stickerPacksConfigFile;
   Map<String, dynamic> _stickerPacksConfig;
   List<dynamic> _storedStickerPacks;
+
+  final String _stickerPackIdentifier = "goodnight";
 
   @override
   void initState() {
@@ -67,14 +71,39 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
     for (int i = 0; i < _stickerData.data.length; i++) {
       var stickerImg = _stickerData.data[i].src.replaceAll('%s', avatar);
       final response = await get(stickerImg);
-      final documentDirectory = await getApplicationDocumentsDirectory();
+
       print("_____$i = ${response.body} ____");
       if (i == 0) {
-        File("${documentDirectory.path}/tray-icon.png");
+        File("${packageDirectory.path}/tray-icon.png")
+          ..createSync(recursive: true)
+          ..writeAsBytesSync(response.bodyBytes);
+        print("i am here__________PNG");
+        print("${packageDirectory.path}");
+      } else {
+        final codec = await instantiateImageCodec(response.bodyBytes);
+        final frame = await codec.getNextFrame();
+        final uiImage = frame.image;
+        final result = File("${packageDirectory.path}/goodnight_${i - 1}.png")
+          ..createSync(recursive: true)
+          ..writeAsBytesSync(response.bodyBytes);
+        if (uiImage.width > 512 || uiImage.height > 512) {
+          img.Image image_temp = img.decodeImage(result.readAsBytesSync());
+          img.Image resize_img =
+              img.copyResize(image_temp, width: 512, height: 512);
+
+          File("${packageDirectory.path}/goodnight_${i - 1}.png")
+            ..createSync(recursive: true)
+            ..writeAsBytesSync(img.encodePng(resize_img));
+          print("_____________");
+        }
+        await FlutterImageCompress.compressAndGetFile(
+            "${packageDirectory.path}/goodnight_${i - 1}.png",
+            "${packageDirectory.path}/goodnight_${i - 1}.webp",
+            format: CompressFormat.webp,
+            minWidth: 512,
+            minHeight: 512,
+            quality: 90);
       }
-      File("${documentDirectory.path}/${_stickerData.data[i].templateId}.webp")
-        ..createSync(recursive: true)
-        ..writeAsBytesSync(response.bodyBytes);
     }
 
     File packageContentsFile = File("${packageDirectory.path}/config.json");
@@ -101,6 +130,23 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
     _stickerPacksConfigFile.deleteSync();
     _stickerPacksConfigFile.createSync(recursive: true);
     _stickerPacksConfigFile.writeAsStringSync(contentsOfFile, flush: true);
+
+    _waStickers.updatedStickerPacks(identifier);
+    print("_____________________IA MA HERRR");
+    _waStickers.addStickerPack(
+      packageName: WhatsAppPackage.Consumer,
+      stickerPackIdentifier: identifier,
+      stickerPackName: 'GoodNight',
+      listener: (action, result, {error}) => processResponse(
+        action: action,
+        result: result,
+        error: error,
+        successCallback: () {
+          print("HELLO______________________");
+        },
+        context: context,
+      ),
+    );
   }
 
   @override
@@ -116,7 +162,7 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
           child: Column(
             children: [
               BitmojiStickerHeader(
-                onPress: () => downloadAndStore('goodnight'),
+                onPress: () => downloadAndStore(_stickerPackIdentifier),
               ),
               _stickerData == null
                   ? Container(

@@ -30,10 +30,10 @@ dependencies:
   flutter_screenutil: ^2.3.1
   flutter_bloc: ^6.0.2
   flutter_image_compress: ^0.7.0
-  dio: ^3.0.10
   http: ^0.12.2
   path_provider: ^1.6.18
   flutter_whatsapp_stickers: ^1.0.0+4
+  image: ^2.1.18
 
 dev_dependencies:
   flutter_test:

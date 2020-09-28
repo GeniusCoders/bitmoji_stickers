@@ -1,9 +1,34 @@
 {
-    "data": [
+    "data": [{
+            "template_id": "4942",
+            "comic_id": "10216447",
+            "src": "https://render.bitstrips.com/v2/cpanel/10219680-%s-v1.png?transparent=1&palette=1&width=96",
+            "supertags": [
+                "#popmoji"
+            ],
+            "tags": [
+                "good night",
+                "bye*",
+                "gnight",
+                "resting",
+                "night",
+                "goodnight",
+                "nap",
+                "sleepy",
+                "bedtime"
+            ],
+            "categories": [
+                "#mt_goodnight_com_textless_key",
+                "#mt_goodnight",
+                "#mt_goodnight_key",
+                "#mt_goodnight_com_textless"
+            ],
+            "schedulable_id": "10c378f0-5df7-48b5-954c-2613beccb280"
+        },
         {
             "template_id": "4942",
             "comic_id": "10216447",
-            "src": "https://render.bitstrips.com/v2/cpanel/10216447-%s-v1.png?transparent=1&palette=1",
+            "src": "https://render.bitstrips.com/v2/cpanel/10216447-%s-v1.png?transparent=1&palette=1&width=512",
             "supertags": [
                 "#popmoji"
             ],
@@ -29,7 +54,7 @@
         {
             "template_id": "9322",
             "comic_id": "10212768",
-            "src": "https://render.bitstrips.com/v2/cpanel/10212768-%s-v1.png?transparent=1&palette=1",
+            "src": "https://render.bitstrips.com/v2/cpanel/10212768-%s-v1.png?transparent=1&palette=1&width=512",
             "supertags": [
                 "#popmoji"
             ],
@@ -55,7 +80,7 @@
         {
             "template_id": "7109",
             "comic_id": "9886288",
-            "src": "https://render.bitstrips.com/v2/cpanel/9886288-%s-v1.png?transparent=1&palette=1",
+            "src": "https://render.bitstrips.com/v2/cpanel/9886288-%s-v1.png?transparent=1&palette=1&width=512",
             "supertags": [
                 "#ismiley"
             ],
@@ -83,7 +108,7 @@
         {
             "template_id": "16619",
             "comic_id": "10227482",
-            "src": "https://render.bitstrips.com/v2/cpanel/10227482-%s-v1.png?transparent=1&palette=1",
+            "src": "https://render.bitstrips.com/v2/cpanel/10227482-%s-v1.png?transparent=1&palette=1&width=512",
             "supertags": [
                 "#ismiley"
             ],
@@ -111,7 +136,7 @@
         {
             "template_id": "13673",
             "comic_id": "10218998",
-            "src": "https://render.bitstrips.com/v2/cpanel/10218998-%s-v1.png?transparent=1&palette=1",
+            "src": "https://render.bitstrips.com/v2/cpanel/10218998-%s-v1.png?transparent=1&palette=1&width=512",
             "supertags": [
                 "#ismiley"
             ],
@@ -131,7 +156,7 @@
         {
             "template_id": "15544",
             "comic_id": "10224477",
-            "src": "https://render.bitstrips.com/v2/cpanel/10224477-%s-v1.png?transparent=1&palette=1",
+            "src": "https://render.bitstrips.com/v2/cpanel/10224477-%s-v1.png?transparent=1&palette=1&width=512",
             "supertags": [
                 "#ismiley"
             ],
@@ -149,7 +174,7 @@
         {
             "template_id": "3829",
             "comic_id": "10218154",
-            "src": "https://render.bitstrips.com/v2/cpanel/10218154-%s-v1.png?transparent=1&palette=1",
+            "src": "https://render.bitstrips.com/v2/cpanel/10218154-%s-v1.png?transparent=1&palette=1&width=512",
             "supertags": [
                 "#ismiley"
             ],
@@ -176,7 +201,7 @@
         {
             "template_id": "13226",
             "comic_id": "10218503",
-            "src": "https://render.bitstrips.com/v2/cpanel/10218503-%s-v1.png?transparent=1&palette=1",
+            "src": "https://render.bitstrips.com/v2/cpanel/10218503-%s-v1.png?transparent=1&palette=1&width=512",
             "supertags": [
                 "#ismiley"
             ],
@@ -201,7 +226,7 @@
         {
             "template_id": "6510",
             "comic_id": "9047686",
-            "src": "https://render.bitstrips.com/v2/cpanel/9047686-%s-v1.png?transparent=1&palette=1",
+            "src": "https://render.bitstrips.com/v2/cpanel/9047686-%s-v1.png?transparent=1&palette=1&width=512",
             "supertags": [
                 "#ismiley"
             ],
@@ -237,8 +262,7 @@
         "publisher_website": "https://github.com/vincekruger/flutter_whatsapp_stickers",
         "privacy_policy_website": "https://github.com/vincekruger/flutter_whatsapp_stickers",
         "license_agreement_website": "https://github.com/vincekruger/flutter_whatsapp_stickers",
-        "stickers": [
-            {
+        "stickers": [{
                 "image_file": "goodnight_0.webp",
                 "emojis": [
                     "☕"
