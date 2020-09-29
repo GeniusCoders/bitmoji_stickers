@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:ui';
 import 'package:BitmojiStickers/bloc/sticker_bloc/sticker_bloc_bloc.dart';
-import 'package:BitmojiStickers/pages/models/stickers_model.dart';
+import 'package:BitmojiStickers/models/stickers_model.dart';
 import 'package:BitmojiStickers/util/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -87,14 +87,13 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
           ..createSync(recursive: true)
           ..writeAsBytesSync(response.bodyBytes);
         if (uiImage.width > 512 || uiImage.height > 512) {
-          img.Image image_temp = img.decodeImage(result.readAsBytesSync());
-          img.Image resize_img =
-              img.copyResize(image_temp, width: 512, height: 512);
+          final img.Image imageTemp = img.decodeImage(result.readAsBytesSync());
+          final img.Image resizeImg =
+              img.copyResize(imageTemp, width: 512, height: 512);
 
           File("${packageDirectory.path}/goodnight_${i - 1}.png")
             ..createSync(recursive: true)
-            ..writeAsBytesSync(img.encodePng(resize_img));
-          print("_____________");
+            ..writeAsBytesSync(img.encodePng(resizeImg));
         }
         await FlutterImageCompress.compressAndGetFile(
             "${packageDirectory.path}/goodnight_${i - 1}.png",

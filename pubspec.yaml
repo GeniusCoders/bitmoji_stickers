@@ -34,11 +34,16 @@ dependencies:
   path_provider: ^1.6.18
   flutter_whatsapp_stickers: ^1.0.0+4
   image: ^2.1.18
+  get_it: ^4.0.2
+  injectable: ^0.3.0
+  shared_preferences: ^0.5.12
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  build_runner: any
+  injectable_generator: ^0.3.5
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 # The following section is specific to Flutter.

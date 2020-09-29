@@ -1,14 +1,15 @@
 import 'dart:async';
 
-import 'package:BitmojiStickers/pages/models/stickers_model.dart';
-import 'package:BitmojiStickers/pages/services/api/stickers_api.dart';
-import 'package:BitmojiStickers/pages/services/repo/stickers_repo.dart';
+import 'package:BitmojiStickers/models/stickers_model.dart';
+import 'package:BitmojiStickers/services/api/stickers_api.dart';
 import 'package:bloc/bloc.dart';
+import 'package:injectable/injectable.dart';
 import 'package:meta/meta.dart';
 
 part 'sticker_bloc_event.dart';
 part 'sticker_bloc_state.dart';
 
+@injectable
 class StickerBloc extends Bloc<StickerBlocEvent, StickerBlocState> {
   final StickersApi stickersRepo;
 

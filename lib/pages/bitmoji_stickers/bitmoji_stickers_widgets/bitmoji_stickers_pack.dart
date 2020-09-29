@@ -1,4 +1,4 @@
-import 'package:BitmojiStickers/pages/models/stickers_model.dart';
+import 'package:BitmojiStickers/models/stickers_model.dart';
 import 'package:BitmojiStickers/styles/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
