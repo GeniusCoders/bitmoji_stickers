@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:ui';
 import 'package:BitmojiStickers/bloc/sticker_bloc/sticker_bloc_bloc.dart';
+import 'package:BitmojiStickers/models/dynamic_data/bitmoji_id.dart';
 import 'package:BitmojiStickers/models/stickers_model/stickers_model.dart';
 import 'package:BitmojiStickers/pages/loading/loading.dart';
 import 'package:BitmojiStickers/util/utils.dart';
@@ -14,6 +15,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:image/image.dart' as img;
 import 'bitmoji_stickers_widgets/bitmoji_sticker_header.dart';
 import 'bitmoji_stickers_widgets/bitmoji_stickers_pack.dart';
+import '../../injection.dart';
 
 class BitmojiStickers extends StatefulWidget {
   final String stickerPathName;
@@ -62,22 +64,10 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
   }
 
   void downloadAndStore(String identifier) async {
-    _waStickers.updatedStickerPacks(identifier);
-    print("_____________________IA MA HERRR");
-    _waStickers.addStickerPack(
-      packageName: WhatsAppPackage.Consumer,
-      stickerPackIdentifier: identifier,
-      stickerPackName: 'Bitmoji $identifier',
-      listener: (action, result, {error}) => processResponse(
-        action: action,
-        result: result,
-        error: error,
-        successCallback: () {
-          print("HELLO______________________");
-        },
-        context: context,
-      ),
-    );
+    BlocProvider.of<StickerBloc>(context).add(DownloadAndStore(
+        stickerData: _stickerData,
+        identifier: _stickerPackIdentifier,
+        avatar: getIt<BitmojiIdData>().bitmojiIdValue));
   }
 
   @override
@@ -87,6 +77,24 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
         if (state is StickersState) {
           _stickerData = state.stickerResponse;
           _stickerPackIdentifier = state.stickerResponse.identifier;
+        }
+        if (state is DownloadSucces) {
+          _waStickers.updatedStickerPacks(_stickerPackIdentifier);
+          print("_____________________IA MA HERRR");
+          _waStickers.addStickerPack(
+            packageName: WhatsAppPackage.Consumer,
+            stickerPackIdentifier: _stickerPackIdentifier,
+            stickerPackName: 'Bitmoji $_stickerPackIdentifier',
+            listener: (action, result, {error}) => processResponse(
+              action: action,
+              result: result,
+              error: error,
+              successCallback: () {
+                print("HELLO______________________");
+              },
+              context: context,
+            ),
+          );
         }
       },
       builder: (context, state) {

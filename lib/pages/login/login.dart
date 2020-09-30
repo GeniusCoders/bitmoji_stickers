@@ -28,82 +28,84 @@ class _LoginState extends State<Login> {
             (Route<dynamic> route) => false);
       }
     }, builder: (context, state) {
-      return Stack(
-        children: [
-          Container(
-            padding: EdgeInsets.all(20.w),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                LoginBitmoji(),
-                Container(
-                  decoration: BoxDecoration(
-                      border: Border.all(
-                          color: Colors.grey.withOpacity(.4), width: .6),
-                      borderRadius: BorderRadius.circular(10.w)),
-                  child: Column(
-                    children: [
-                      SizedBox(
-                        height: 4.h,
-                      ),
-                      TextFormField(
-                        decoration: InputDecoration(
-                            prefixIcon: Icon(
-                              Icons.email,
-                              size: 22,
-                            ),
-                            hintText: 'Email',
-                            border: InputBorder.none),
-                      ),
-                      SizedBox(
-                        height: 4.h,
-                      ),
-                      Divider(
-                        color: Colors.black87,
-                      ),
-                      SizedBox(
-                        height: 4.h,
-                      ),
-                      TextFormField(
-                        obscureText: true,
-                        decoration: InputDecoration(
-                            prefixIcon: Icon(
-                              Icons.lock,
-                              size: 22,
-                            ),
-                            hintText: 'Password',
-                            border: InputBorder.none),
-                      ),
-                      SizedBox(
-                        height: 6.h,
-                      ),
-                      InkWell(
-                        onTap: _onPress,
-                        child: Container(
-                          padding: EdgeInsets.all(16.w),
-                          alignment: Alignment.center,
-                          width: double.infinity,
-                          decoration: BoxDecoration(
-                              color: primaryColor,
-                              borderRadius: BorderRadius.vertical(
-                                  bottom: Radius.circular(10.w))),
-                          child: Text(
-                            "Log In",
-                            style: TextStyle(
-                                fontSize: 18.sp,
-                                color: white,
-                                fontWeight: FontWeight.w600),
-                          ),
+      return SingleChildScrollView(
+        child: Stack(
+          children: [
+            Container(
+              padding: EdgeInsets.all(20.w),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  LoginBitmoji(),
+                  Container(
+                    decoration: BoxDecoration(
+                        border: Border.all(
+                            color: Colors.grey.withOpacity(.4), width: .6),
+                        borderRadius: BorderRadius.circular(10.w)),
+                    child: Column(
+                      children: [
+                        SizedBox(
+                          height: 4.h,
                         ),
-                      )
-                    ],
+                        TextFormField(
+                          decoration: InputDecoration(
+                              prefixIcon: Icon(
+                                Icons.email,
+                                size: 22,
+                              ),
+                              hintText: 'Email',
+                              border: InputBorder.none),
+                        ),
+                        SizedBox(
+                          height: 4.h,
+                        ),
+                        Divider(
+                          color: Colors.black87,
+                        ),
+                        SizedBox(
+                          height: 4.h,
+                        ),
+                        TextFormField(
+                          obscureText: true,
+                          decoration: InputDecoration(
+                              prefixIcon: Icon(
+                                Icons.lock,
+                                size: 22,
+                              ),
+                              hintText: 'Password',
+                              border: InputBorder.none),
+                        ),
+                        SizedBox(
+                          height: 6.h,
+                        ),
+                        InkWell(
+                          onTap: _onPress,
+                          child: Container(
+                            padding: EdgeInsets.all(16.w),
+                            alignment: Alignment.center,
+                            width: double.infinity,
+                            decoration: BoxDecoration(
+                                color: primaryColor,
+                                borderRadius: BorderRadius.vertical(
+                                    bottom: Radius.circular(10.w))),
+                            child: Text(
+                              "Log In",
+                              style: TextStyle(
+                                  fontSize: 18.sp,
+                                  color: white,
+                                  fontWeight: FontWeight.w600),
+                            ),
+                          ),
+                        )
+                      ],
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
-          ),
-          Container(child: state is LoginLoading ? Loading() : null)
-        ],
+            Container(child: state is LoginLoading ? Loading() : null)
+          ],
+        ),
       );
     });
   }

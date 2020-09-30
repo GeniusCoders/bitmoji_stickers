@@ -35,7 +35,10 @@ class StickerBloc extends Bloc<StickerBlocEvent, StickerState> {
     }
     if (event is DownloadAndStore) {
       yield LoadingState();
-      final data = await stickersRepo.dowloadStickers();
+      final data = await stickersRepo.dowloadStickers(
+          stickerData: event.stickerData,
+          identfier: event.identifier,
+          avatar: event.avatar);
       if (data) {
         yield DownloadSucces();
       }

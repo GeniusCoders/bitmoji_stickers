@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:ui';
 import 'package:BitmojiStickers/services/repo/stickers_repo.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:image/image.dart' as img;
 import 'package:BitmojiStickers/models/stickers_model/stickers_model.dart';
@@ -35,7 +36,9 @@ class StickersApi extends StickersRepo {
 
   @override
   Future<bool> dowloadStickers(
-      {String identfier, StickerResponse stickerData, String avatar}) async {
+      {@required StickerResponse stickerData,
+      @required String identfier,
+      @required String avatar}) async {
     final _applicationDirectory = await getApplicationDocumentsDirectory();
     final _stickerPacksDirectory =
         Directory("${_applicationDirectory.path}/sticker_packs");
@@ -50,7 +53,7 @@ class StickersApi extends StickersRepo {
         Directory("${_stickerPacksDirectory.path}/$identfier")
           ..create(recursive: true);
     print("packageDirectory______$packageDirectory");
-
+    print(stickerData.data);
     for (int i = 0; i < stickerData.data.length; i++) {
       var stickerImg = stickerData.data[i].src.replaceAll('%s', avatar);
       final response = await get(stickerImg);
