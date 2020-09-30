@@ -1,5 +1,5 @@
 {
-    "identifier": "goodnight",
+    "identifier": "emoji",
     "data": [
         {
             "template_id": "4942",
@@ -254,8 +254,8 @@
         }
     ],
     "config": {
-        "identifier": "goodnight",
-        "name": "Bitmoji GoodNight",
+        "identifier": "emoji",
+        "name": "Bitmoji Emoji",
         "publisher": "Bitmoji",
         "tray_image_file": "tray-icon.png",
         "image_data_version": "1",
@@ -266,55 +266,55 @@
         "license_agreement_website": "",
         "stickers": [
             {
-                "image_file": "goodnight_0.webp",
+                "image_file": "emoji_0.webp",
                 "emojis": [
                     "☕"
                 ]
             },
             {
-                "image_file": "goodnight_1.webp",
+                "image_file": "emoji_1.webp",
                 "emojis": [
                     "☕"
                 ]
             },
             {
-                "image_file": "goodnight_2.webp",
+                "image_file": "emoji_2.webp",
                 "emojis": [
                     "☕"
                 ]
             },
             {
-                "image_file": "goodnight_3.webp",
+                "image_file": "emoji_3.webp",
                 "emojis": [
                     "☕"
                 ]
             },
             {
-                "image_file": "goodnight_4.webp",
+                "image_file": "emoji_4.webp",
                 "emojis": [
                     "☕"
                 ]
             },
             {
-                "image_file": "goodnight_5.webp",
+                "image_file": "emoji_5.webp",
                 "emojis": [
                     "☕"
                 ]
             },
             {
-                "image_file": "goodnight_6.webp",
+                "image_file": "emoji_6.webp",
                 "emojis": [
                     "☕"
                 ]
             },
             {
-                "image_file": "goodnight_7.webp",
+                "image_file": "emoji_7.webp",
                 "emojis": [
                     "☕"
                 ]
             },
             {
-                "image_file": "goodnight_8.webp",
+                "image_file": "emoji_8.webp",
                 "emojis": [
                     "☕"
                 ]

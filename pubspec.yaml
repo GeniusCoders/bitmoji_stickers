@@ -37,6 +37,7 @@ dependencies:
   get_it: ^4.0.2
   injectable: ^0.3.0
   shared_preferences: ^0.5.12
+  rxdart: ^0.24.1
 
 dev_dependencies:
   flutter_test:

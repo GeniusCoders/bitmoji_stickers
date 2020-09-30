@@ -29,11 +29,4 @@ class UserApi extends UserRepo {
     SharedPreferences prefs = await _prefs;
     prefs.setString('data', jsonEncode('12430618-b508-4d2e-b2c8-17eaf61217b2'));
   }
-
-  @override
-  Future<String> getId() async {
-    SharedPreferences prefs = await _prefs;
-    final data = prefs.getString('data');
-    return jsonDecode(data);
-  }
 }

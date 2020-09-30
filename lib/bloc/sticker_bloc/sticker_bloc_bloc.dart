@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:BitmojiStickers/models/stickers_model.dart';
-import 'package:BitmojiStickers/services/api/stickers_api.dart';
+import 'package:BitmojiStickers/models/stickers_model/stickers_model.dart';
+import 'package:BitmojiStickers/services/repo/stickers_repo.dart';
 import 'package:bloc/bloc.dart';
 import 'package:injectable/injectable.dart';
 import 'package:meta/meta.dart';
@@ -10,13 +10,13 @@ part 'sticker_bloc_event.dart';
 part 'sticker_bloc_state.dart';
 
 @injectable
-class StickerBloc extends Bloc<StickerBlocEvent, StickerBlocState> {
-  final StickersApi stickersRepo;
+class StickerBloc extends Bloc<StickerBlocEvent, StickerState> {
+  final StickersRepo stickersRepo;
 
   StickerBloc({@required this.stickersRepo}) : super(StickerBlocInitial());
 
   @override
-  Stream<StickerBlocState> mapEventToState(
+  Stream<StickerState> mapEventToState(
     StickerBlocEvent event,
   ) async* {
     if (event is GetStickers) {
@@ -35,6 +35,12 @@ class StickerBloc extends Bloc<StickerBlocEvent, StickerBlocState> {
       yield LoadingState();
 
       try {} catch (e) {}
+    }
+
+    if (event is GetBitmojiId) {
+      yield LoadingState();
+      final id = await stickersRepo.getBitmojiId();
+      yield BitmojiId(id: id);
     }
   }
 }

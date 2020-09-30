@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:ui';
 import 'package:BitmojiStickers/bloc/sticker_bloc/sticker_bloc_bloc.dart';
-import 'package:BitmojiStickers/models/stickers_model.dart';
+import 'package:BitmojiStickers/models/stickers_model/stickers_model.dart';
 import 'package:BitmojiStickers/util/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -150,7 +150,7 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
 
   @override
   Widget build(BuildContext context) {
-    return BlocConsumer<StickerBloc, StickerBlocState>(
+    return BlocConsumer<StickerBloc, StickerState>(
       listener: (context, state) {
         if (state is StickersState) {
           _stickerData = state.stickerResponse;

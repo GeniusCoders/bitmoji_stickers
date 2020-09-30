@@ -1,17 +1,18 @@
 class StickerResponse {
   List<StickerData> data;
   Map<String, dynamic> config;
-
+  String identifier;
   StickerResponse({this.data});
 
   StickerResponse.fromJson(dynamic json) {
+    identifier = json['identifier'];
     if (json['data'] != null) {
       data = List<StickerData>();
       json['data'].forEach((v) {
         data.add(StickerData.fromJson(v));
       });
-      config = json['config'];
     }
+    config = json['config'];
   }
 }
 

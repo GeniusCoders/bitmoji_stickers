@@ -1,22 +1,28 @@
 part of 'sticker_bloc_bloc.dart';
 
 @immutable
-abstract class StickerBlocState {}
+abstract class StickerState {}
 
-class StickerBlocInitial extends StickerBlocState {}
+class StickerBlocInitial extends StickerState {}
 
-class LoadingState extends StickerBlocState {}
+class LoadingState extends StickerState {}
 
-class FailedState extends StickerBlocState {
+class FailedState extends StickerState {
   final String error;
 
   FailedState({@required this.error});
 }
 
-class StickersState extends StickerBlocState {
+class StickersState extends StickerState {
   final StickerResponse stickerResponse;
 
   StickersState({@required this.stickerResponse});
 }
 
-class DownloadAndStore extends StickerBlocState {}
+class DownloadAndStore extends StickerState {}
+
+class BitmojiId extends StickerState {
+  final String id;
+
+  BitmojiId({@required this.id});
+}

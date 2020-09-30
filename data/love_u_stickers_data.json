@@ -1,5 +1,5 @@
 {
-    "identifier": "goodnight",
+    "identifier": "loveu",
     "data": [
         {
             "template_id": "4942",
@@ -88,17 +88,17 @@
             ],
             "tags": [
                 "bed",
-                "hitting the hay*",
+                "loveutting the hay*",
                 "sleep",
                 "good night",
-                "hittin the hay*",
+                "loveuttin the hay*",
                 "night",
                 "goodnight",
-                "hittin the hay",
+                "loveuttin the hay",
                 "going to bed",
                 "bedtime",
                 "going to sleep",
-                "hitting the hay"
+                "loveutting the hay"
             ],
             "categories": [
                 "#mt_goodnight",
@@ -254,8 +254,8 @@
         }
     ],
     "config": {
-        "identifier": "goodnight",
-        "name": "Bitmoji GoodNight",
+        "identifier": "loveu",
+        "name": "Bitmoji Love You",
         "publisher": "Bitmoji",
         "tray_image_file": "tray-icon.png",
         "image_data_version": "1",
@@ -266,55 +266,55 @@
         "license_agreement_website": "",
         "stickers": [
             {
-                "image_file": "goodnight_0.webp",
+                "image_file": "loveu_0.webp",
                 "emojis": [
                     "☕"
                 ]
             },
             {
-                "image_file": "goodnight_1.webp",
+                "image_file": "loveu_1.webp",
                 "emojis": [
                     "☕"
                 ]
             },
             {
-                "image_file": "goodnight_2.webp",
+                "image_file": "loveu_2.webp",
                 "emojis": [
                     "☕"
                 ]
             },
             {
-                "image_file": "goodnight_3.webp",
+                "image_file": "loveu_3.webp",
                 "emojis": [
                     "☕"
                 ]
             },
             {
-                "image_file": "goodnight_4.webp",
+                "image_file": "loveu_4.webp",
                 "emojis": [
                     "☕"
                 ]
             },
             {
-                "image_file": "goodnight_5.webp",
+                "image_file": "loveu_5.webp",
                 "emojis": [
                     "☕"
                 ]
             },
             {
-                "image_file": "goodnight_6.webp",
+                "image_file": "loveu_6.webp",
                 "emojis": [
                     "☕"
                 ]
             },
             {
-                "image_file": "goodnight_7.webp",
+                "image_file": "loveu_7.webp",
                 "emojis": [
                     "☕"
                 ]
             },
             {
-                "image_file": "goodnight_8.webp",
+                "image_file": "loveu_8.webp",
                 "emojis": [
                     "☕"
                 ]

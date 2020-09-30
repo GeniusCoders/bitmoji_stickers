@@ -4,3 +4,5 @@ part of 'sticker_bloc_bloc.dart';
 abstract class StickerBlocEvent {}
 
 class GetStickers extends StickerBlocEvent {}
+
+class GetBitmojiId extends StickerBlocEvent {}

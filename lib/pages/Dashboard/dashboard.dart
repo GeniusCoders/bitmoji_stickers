@@ -1,22 +1,52 @@
+import 'package:BitmojiStickers/bloc/sticker_bloc/sticker_bloc_bloc.dart';
+import 'package:BitmojiStickers/injection.dart';
+import 'package:BitmojiStickers/models/dynamic_data/bitmoji_id.dart';
+import 'package:BitmojiStickers/pages/loading/loading.dart';
 import 'package:BitmojiStickers/styles/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'dashboard_widgets/bitmoji_cat_card.dart';
 
-class Dashboard extends StatelessWidget {
+class Dashboard extends StatefulWidget {
+  @override
+  _DashboardState createState() => _DashboardState();
+}
+
+class _DashboardState extends State<Dashboard> {
+  @override
+  void initState() {
+    super.initState();
+    BlocProvider.of<StickerBloc>(context).add(GetBitmojiId());
+  }
+
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Container(
-          padding: EdgeInsets.all(16.w),
-          child: Wrap(
-              children: list
-                  .map((e) => BitmojiCatCard(
-                        title: e['title'],
-                        urlid: e['cat_id'],
-                        backgroundColor: e['color'],
-                      ))
-                  .toList())),
+    return BlocConsumer<StickerBloc, StickerState>(
+      listener: (context, state) {
+        if (state is BitmojiId) {
+          getIt<BitmojiIdData>().addBitmojiId(id: state.id);
+        }
+      },
+      builder: (context, state) => SingleChildScrollView(
+        child: Stack(
+          children: [
+            Container(
+                padding: EdgeInsets.all(16.w),
+                child: Wrap(
+                    children: list
+                        .map((e) => BitmojiCatCard(
+                              title: e['title'],
+                              urlid: e['cat_id'],
+                              backgroundColor: e['color'],
+                            ))
+                        .toList())),
+            Container(
+              child: state is LoadingState ? Loading() : null,
+            )
+          ],
+        ),
+      ),
     );
   }
 }
