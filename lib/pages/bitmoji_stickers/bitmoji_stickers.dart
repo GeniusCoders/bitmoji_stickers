@@ -15,6 +15,10 @@ import 'bitmoji_stickers_widgets/bitmoji_sticker_header.dart';
 import 'bitmoji_stickers_widgets/bitmoji_stickers_pack.dart';
 
 class BitmojiStickers extends StatefulWidget {
+  final String stickerPathName;
+
+  const BitmojiStickers({Key key, this.stickerPathName}) : super(key: key);
+
   @override
   _BitmojiStickersState createState() => _BitmojiStickersState();
 }
@@ -35,7 +39,8 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
   @override
   void initState() {
     super.initState();
-    BlocProvider.of<StickerBloc>(context).add(GetStickers());
+    BlocProvider.of<StickerBloc>(context)
+        .add(GetStickers(strickerPath: widget.stickerPathName));
     prepareFolderStructure();
   }
 

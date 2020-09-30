@@ -8,6 +8,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../injection.dart';
 
 class BitmojiStickerPage extends StatelessWidget {
+  final String stickerPathName;
+
+  const BitmojiStickerPage({@required this.stickerPathName});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,7 +23,9 @@ class BitmojiStickerPage extends StatelessWidget {
       ),
       body: BlocProvider<StickerBloc>(
         create: (context) => StickerBloc(stickersRepo: getIt<StickersRepo>()),
-        child: BitmojiStickers(),
+        child: BitmojiStickers(
+          stickerPathName: stickerPathName,
+        ),
       ),
     );
   }

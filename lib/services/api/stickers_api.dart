@@ -14,9 +14,8 @@ class StickersApi extends StickersRepo {
 
   StickersApi(this._prefs);
   @override
-  Future<StickerResponse> loadGoodNightSticker() async {
-    final file =
-        await rootBundle.loadString('data/good_night_stickers_data.json');
+  Future<StickerResponse> loadSticker({String stickerPathName}) async {
+    final file = await rootBundle.loadString('data/$stickerPathName.json');
     final jsonResponse = json.decode(file);
 
     return StickerResponse.fromJson(jsonResponse);

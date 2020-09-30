@@ -22,12 +22,12 @@ class StickerBloc extends Bloc<StickerBlocEvent, StickerState> {
     if (event is GetStickers) {
       yield LoadingState();
       try {
-        final data = await stickersRepo.loadGoodNightSticker();
+        final data =
+            await stickersRepo.loadSticker(stickerPathName: event.strickerPath);
         yield StickersState(stickerResponse: data);
       } catch (e) {
-        print("______________");
-        print(e.toString());
-        print("______________");
+        print(e);
+        print("_____________");
         yield FailedState(error: e.toString());
       }
     }

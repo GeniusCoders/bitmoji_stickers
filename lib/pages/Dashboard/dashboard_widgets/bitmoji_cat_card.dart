@@ -1,6 +1,5 @@
-import 'package:BitmojiStickers/bloc/sticker_bloc/sticker_bloc_bloc.dart';
 import 'package:BitmojiStickers/models/dynamic_data/bitmoji_id.dart';
-import 'package:BitmojiStickers/pages/loading/loading.dart';
+import 'package:BitmojiStickers/pages/bitmoji_stickers/bitmoji_stickers_page.dart';
 import 'package:BitmojiStickers/styles/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -11,13 +10,24 @@ class BitmojiCatCard extends StatelessWidget {
   final String urlid;
   final String title;
   final Color backgroundColor;
+  final String pathName;
   const BitmojiCatCard(
-      {this.urlid, this.title, @required this.backgroundColor});
+      {this.urlid, this.title, @required this.backgroundColor, this.pathName});
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () {},
+      onTap: () {
+        print(pathName);
+        print("_______");
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => BitmojiStickerPage(
+                stickerPathName: pathName,
+              ),
+            ));
+      },
       child: Container(
         width: 140.w,
         height: 140.w,
