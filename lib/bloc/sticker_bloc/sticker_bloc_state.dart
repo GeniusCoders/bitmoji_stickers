@@ -19,10 +19,10 @@ class StickersState extends StickerState {
   StickersState({@required this.stickerResponse});
 }
 
-class DownloadAndStore extends StickerState {}
-
 class BitmojiId extends StickerState {
   final String id;
 
   BitmojiId({@required this.id});
 }
+
+class DownloadSucces extends StickerState {}
