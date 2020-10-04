@@ -55,7 +55,7 @@ class StickersApi extends StickersRepo {
     print("packageDirectory______$packageDirectory");
     print(stickerData.data);
     for (int i = 0; i < stickerData.data.length; i++) {
-      var stickerImg = stickerData.data[i].src.replaceAll('%s', avatar);
+      var stickerImg = stickerData.data[i].replaceAll('%s', avatar);
       final response = await get(stickerImg);
 
       print("_____$i = ${response.body} ____");

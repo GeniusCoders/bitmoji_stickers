@@ -1,0 +1,95 @@
+{
+    "identifier": "new",
+    "data": [
+        "https://sdk.bitmoji.com/render/panel/7974009-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9788479-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9946988-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/ani-20008145-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20037527-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9788566-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9788623-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9788649-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9954363-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10215339-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10224595-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10228159-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20002521-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10222336-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20002937-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20007892-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20009282-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20011469-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20017774-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20018813-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20016083-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20027624-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0"
+    ],
+    "config": {
+        "identifier": "new",
+        "name": "Bitmoji new",
+        "publisher": "Bitmoji",
+        "tray_image_file": "tray-icon.png",
+        "image_data_version": "1",
+        "avoid_cache": false,
+        "publisher_email": "",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+            {
+                "image_file": "new_0.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "new_1.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "new_2.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "new_3.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "new_4.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "new_5.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "new_6.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "new_7.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "new_8.webp",
+                "emojis": [
+                    "☕"
+                ]
+            }
+        ]
+    }
+}

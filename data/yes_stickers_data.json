@@ -1,257 +1,94 @@
 {
     "identifier": "yes",
     "data": [
-        {
-            "template_id": "4942",
-            "comic_id": "10216447",
-            "src": "https://render.bitstrips.com/v2/cpanel/10219680-%s-v1.png?transparent=1&palette=1&width=96",
-            "supertags": [
-                "#popmoji"
-            ],
-            "tags": [
-                "good night",
-                "bye*",
-                "gnight",
-                "resting",
-                "night",
-                "goodnight",
-                "nap",
-                "sleepy",
-                "bedtime"
-            ],
-            "categories": [
-                "#mt_goodnight_com_textless_key",
-                "#mt_goodnight",
-                "#mt_goodnight_key",
-                "#mt_goodnight_com_textless"
-            ],
-            "schedulable_id": "10c378f0-5df7-48b5-954c-2613beccb280"
-        },
-        {
-            "template_id": "4942",
-            "comic_id": "10216447",
-            "src": "https://render.bitstrips.com/v2/cpanel/10216447-%s-v1.png?transparent=1&palette=1&width=512",
-            "supertags": [
-                "#popmoji"
-            ],
-            "tags": [
-                "good night",
-                "bye*",
-                "gnight",
-                "resting",
-                "night",
-                "goodnight",
-                "nap",
-                "sleepy",
-                "bedtime"
-            ],
-            "categories": [
-                "#mt_goodnight_com_textless_key",
-                "#mt_goodnight",
-                "#mt_goodnight_key",
-                "#mt_goodnight_com_textless"
-            ],
-            "schedulable_id": "10c378f0-5df7-48b5-954c-2613beccb280"
-        },
-        {
-            "template_id": "9322",
-            "comic_id": "10212768",
-            "src": "https://render.bitstrips.com/v2/cpanel/10212768-%s-v1.png?transparent=1&palette=1&width=512",
-            "supertags": [
-                "#popmoji"
-            ],
-            "tags": [
-                "bed",
-                "sleep",
-                "good night",
-                "mobile",
-                "bed time*",
-                "goodnight",
-                "bed time",
-                "bedtime",
-                "bedtime*"
-            ],
-            "categories": [
-                "#mt_goodnight_com_text_key",
-                "#mt_goodnight",
-                "#mt_goodnight_key",
-                "#mt_goodnight_com_text"
-            ],
-            "schedulable_id": "10c378f0-5df7-48b5-954c-2613beccb280"
-        },
-        {
-            "template_id": "7109",
-            "comic_id": "9886288",
-            "src": "https://render.bitstrips.com/v2/cpanel/9886288-%s-v1.png?transparent=1&palette=1&width=512",
-            "supertags": [
-                "#ismiley"
-            ],
-            "tags": [
-                "bed",
-                "yestting the hay*",
-                "sleep",
-                "good night",
-                "yesttin the hay*",
-                "night",
-                "goodnight",
-                "yesttin the hay",
-                "going to bed",
-                "bedtime",
-                "going to sleep",
-                "yestting the hay"
-            ],
-            "categories": [
-                "#mt_goodnight",
-                "#mt_goodnight_key",
-                "#mt_goodnight_com_text"
-            ],
-            "schedulable_id": "8d1b38b5-a2b0-4fe4-8677-53e4da1c1913"
-        },
-        {
-            "template_id": "16619",
-            "comic_id": "10227482",
-            "src": "https://render.bitstrips.com/v2/cpanel/10227482-%s-v1.png?transparent=1&palette=1&width=512",
-            "supertags": [
-                "#ismiley"
-            ],
-            "tags": [
-                "sleep",
-                "good night",
-                "heart cloud",
-                "nitey nite",
-                "sleeping on a heart cloud",
-                "sleeping on a cloud",
-                "night",
-                "goodnight",
-                "night time",
-                "nighty night",
-                "sleeping"
-            ],
-            "categories": [
-                "#mt_goodnight",
-                "#mt_goodnight_com_textless",
-                "#mt_goodnight_com_textless_key",
-                "#mt_goodnight_key"
-            ],
-            "schedulable_id": "8d1b38b5-a2b0-4fe4-8677-53e4da1c1913"
-        },
-        {
-            "template_id": "13673",
-            "comic_id": "10218998",
-            "src": "https://render.bitstrips.com/v2/cpanel/10218998-%s-v1.png?transparent=1&palette=1&width=512",
-            "supertags": [
-                "#ismiley"
-            ],
-            "tags": [
-                "good night",
-                "good night*",
-                "tired",
-                "sleepy"
-            ],
-            "categories": [
-                "#mt_goodnight_com_textless_key",
-                "#mt_goodnight",
-                "#mt_goodnight_com_textless"
-            ],
-            "schedulable_id": "8d1b38b5-a2b0-4fe4-8677-53e4da1c1913"
-        },
-        {
-            "template_id": "15544",
-            "comic_id": "10224477",
-            "src": "https://render.bitstrips.com/v2/cpanel/10224477-%s-v1.png?transparent=1&palette=1&width=512",
-            "supertags": [
-                "#ismiley"
-            ],
-            "tags": [
-                "bats",
-                "good night",
-                "night night*",
-                "night night"
-            ],
-            "categories": [
-                "#mt_goodnight"
-            ],
-            "schedulable_id": "8d1b38b5-a2b0-4fe4-8677-53e4da1c1913"
-        },
-        {
-            "template_id": "3829",
-            "comic_id": "10218154",
-            "src": "https://render.bitstrips.com/v2/cpanel/10218154-%s-v1.png?transparent=1&palette=1&width=512",
-            "supertags": [
-                "#ismiley"
-            ],
-            "tags": [
-                "good night",
-                "stretch",
-                "bye*",
-                "gnight",
-                "good night*",
-                "night",
-                "yawn",
-                "goodnight*",
-                "goodnight",
-                "good night!*",
-                "good night!"
-            ],
-            "categories": [
-                "#mt_goodnight",
-                "#mt_goodnight_key",
-                "#mt_goodnight_com_text"
-            ],
-            "schedulable_id": "8d1b38b5-a2b0-4fe4-8677-53e4da1c1913"
-        },
-        {
-            "template_id": "13226",
-            "comic_id": "10218503",
-            "src": "https://render.bitstrips.com/v2/cpanel/10218503-%s-v1.png?transparent=1&palette=1&width=512",
-            "supertags": [
-                "#ismiley"
-            ],
-            "tags": [
-                "good night",
-                "night bae",
-                "night sweetie",
-                "nite bae",
-                "nite sweetie",
-                "nite babe",
-                "night babe*",
-                "goodnight",
-                "night babe"
-            ],
-            "categories": [
-                "#mt_goodnight_com_text_key",
-                "#mt_goodnight",
-                "#mt_goodnight_com_text"
-            ],
-            "schedulable_id": "b4ef0d92-600d-48d8-b69c-006ae4182dfd"
-        },
-        {
-            "template_id": "6510",
-            "comic_id": "9047686",
-            "src": "https://render.bitstrips.com/v2/cpanel/9047686-%s-v1.png?transparent=1&palette=1&width=512",
-            "supertags": [
-                "#ismiley"
-            ],
-            "tags": [
-                "good night",
-                "bye*",
-                "sleep tight",
-                "sleep tight*",
-                "night",
-                "counting sheep",
-                "lamb",
-                "goodnight",
-                "animals",
-                "fence",
-                "sheep"
-            ],
-            "categories": [
-                "#mt_goodnight",
-                "#mt_goodnight_key",
-                "#mt_goodnight_com_text"
-            ],
-            "schedulable_id": "b4ef0d92-600d-48d8-b69c-006ae4182dfd"
-        }
+        "https://sdk.bitmoji.com/render/panel/ani-20019988-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/ani-20010290-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/ani-20006511-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9101092-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20009208-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10233631-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9945101-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10222892-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10219728-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10133587-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20011116-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10232794-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20013000-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20036961-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10226804-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10217640-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/8813497-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20007229-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10226874-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10222514-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10223076-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10226870-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9941525-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10219618-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20042233-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9073886-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10228129-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10216709-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20053717-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20041012-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10223941-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10231005-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10134275-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20034190-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20007891-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9513915-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10212726-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9941568-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20019259-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10232803-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9157845-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20007232-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10218964-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/8263908-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10215973-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9853660-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/8263912-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10221193-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10117701-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10176239-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10212615-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20053517-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9946088-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9946282-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20006413-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20007279-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20027467-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10224104-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20039763-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20002516-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10222618-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10233694-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/8398479-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9946056-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10216503-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/7195995-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10235688-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/8643870-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10079860-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10216499-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10222611-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/8736904-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10225614-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/8809921-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/8333576-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20037034-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20013015-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10219859-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/8767610-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10227700-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20004109-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9950296-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10222332-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10211502-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10212994-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/7216901-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10188122-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20040693-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0"
     ],
     "config": {
         "identifier": "yes",

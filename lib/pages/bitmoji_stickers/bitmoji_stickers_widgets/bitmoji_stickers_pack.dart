@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class BitmojiStickersPack extends StatelessWidget {
-  final List<StickerData> data;
+  final List<dynamic> data;
   final String avatar = "12430618-b508-4d2e-b2c8-17eaf61217b2";
   const BitmojiStickersPack({@required this.data});
 
@@ -33,7 +33,7 @@ class BitmojiStickersPack extends StatelessWidget {
                 ),
                 itemCount: data.length,
                 itemBuilder: (context, index) {
-                  var stickerImg = data[index].src.replaceAll('%s', avatar);
+                  var stickerImg = data[index].replaceAll('%s', avatar);
                   return Container(
                     decoration: BoxDecoration(
                         color: white,

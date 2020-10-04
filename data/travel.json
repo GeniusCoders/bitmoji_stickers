@@ -1,0 +1,85 @@
+{
+    "identifier": "travel",
+    "data": [
+        "https://sdk.bitmoji.com/render/panel/10227702-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10226714-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10039921-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10161404-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20043091-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10214041-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10226713-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10226829-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20005339-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20010036-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10211857-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10156048-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0"
+    ],
+    "config": {
+        "identifier": "travel",
+        "name": "Bitmoji travel",
+        "publisher": "Bitmoji",
+        "tray_image_file": "tray-icon.png",
+        "image_data_version": "1",
+        "avoid_cache": false,
+        "publisher_email": "",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+            {
+                "image_file": "travel_0.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "travel_1.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "travel_2.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "travel_3.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "travel_4.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "travel_5.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "travel_6.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "travel_7.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "travel_8.webp",
+                "emojis": [
+                    "☕"
+                ]
+            }
+        ]
+    }
+}
