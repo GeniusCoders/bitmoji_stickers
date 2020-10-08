@@ -137,4 +137,33 @@ List<Map<String, dynamic>> list = [
     "color": purple,
     "pathName": 'sorry_stickers_data'
   },
+  {
+    "cat_id": "ff288382-e316-4116-9cc1-eca988cc1307",
+    "title": "Buzzoff",
+    "color": purple,
+    "pathName": 'buzzoff'
+  },
+  {
+    "cat_id": "20022690",
+    "title": "Food",
+    "color": green,
+    "pathName": 'food',
+  },
+  {"cat_id": "10222032", "title": "Mad", "color": purple, "pathName": 'mad'},
+  {"cat_id": "20053157", "title": "New", "color": yellow, "pathName": 'new'},
+  {
+    "cat_id": "9946988",
+    "title": "Question",
+    "color": blue,
+    "pathName": 'question'
+  },
+  {"cat_id": "10234040", "title": "Swag", "color": green, "pathName": 'swag'},
+  {
+    "cat_id": "10039921",
+    "title": "Travel",
+    "color": lightGreen,
+    "pathName": 'travel'
+  },
+  {"cat_id": "20006618", "title": "Wow", "color": purple, "pathName": 'wow'},
+  {"cat_id": "20007228", "title": "Yay", "color": green, "pathName": 'yay'},
 ];

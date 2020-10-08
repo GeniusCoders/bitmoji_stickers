@@ -9,14 +9,19 @@ import '../../injection.dart';
 
 class BitmojiStickerPage extends StatelessWidget {
   final String stickerPathName;
-
-  const BitmojiStickerPage({@required this.stickerPathName});
+  final String stickerId;
+  final String stickerName;
+  const BitmojiStickerPage({
+    @required this.stickerPathName,
+    @required this.stickerId,
+    @required this.stickerName,
+  });
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Hi',
+          stickerName,
           style: TextStyle(color: white),
         ),
         backgroundColor: blue,
@@ -24,8 +29,9 @@ class BitmojiStickerPage extends StatelessWidget {
       body: BlocProvider<StickerBloc>(
         create: (context) => StickerBloc(stickersRepo: getIt<StickersRepo>()),
         child: BitmojiStickers(
-          stickerPathName: stickerPathName,
-        ),
+            stickerPathName: stickerPathName,
+            stickerId: stickerId,
+            stickerName: stickerName),
       ),
     );
   }

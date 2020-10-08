@@ -18,13 +18,13 @@ class BitmojiCatCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        print(pathName);
-        print("_______");
         Navigator.push(
             context,
             MaterialPageRoute(
               builder: (context) => BitmojiStickerPage(
                 stickerPathName: pathName,
+                stickerId: urlid,
+                stickerName: title,
               ),
             ));
       },

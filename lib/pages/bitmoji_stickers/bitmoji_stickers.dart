@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'dart:io';
-import 'dart:ui';
 import 'package:BitmojiStickers/bloc/sticker_bloc/sticker_bloc_bloc.dart';
 import 'package:BitmojiStickers/models/dynamic_data/bitmoji_id.dart';
 import 'package:BitmojiStickers/models/stickers_model/stickers_model.dart';
@@ -8,19 +7,20 @@ import 'package:BitmojiStickers/pages/loading/loading.dart';
 import 'package:BitmojiStickers/util/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:flutter_whatsapp_stickers/flutter_whatsapp_stickers.dart';
-import 'package:http/http.dart' show get;
 import 'package:path_provider/path_provider.dart';
-import 'package:image/image.dart' as img;
 import 'bitmoji_stickers_widgets/bitmoji_sticker_header.dart';
 import 'bitmoji_stickers_widgets/bitmoji_stickers_pack.dart';
 import '../../injection.dart';
 
 class BitmojiStickers extends StatefulWidget {
   final String stickerPathName;
-
-  const BitmojiStickers({Key key, this.stickerPathName}) : super(key: key);
+  final String stickerId;
+  final String stickerName;
+  const BitmojiStickers(
+      {@required this.stickerPathName,
+      @required this.stickerId,
+      @required this.stickerName});
 
   @override
   _BitmojiStickersState createState() => _BitmojiStickersState();
@@ -105,6 +105,8 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
                 children: [
                   BitmojiStickerHeader(
                     onPress: () => downloadAndStore(_stickerPackIdentifier),
+                    stickerId: widget.stickerId,
+                    stickerName: widget.stickerName,
                   ),
                   _stickerData == null
                       ? Container(

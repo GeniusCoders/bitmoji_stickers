@@ -1,13 +1,7 @@
 import 'dart:convert';
-import 'dart:io';
-import 'dart:ui';
-import 'package:image/image.dart' as img;
-import 'package:BitmojiStickers/models/stickers_model/stickers_model.dart';
 import 'package:BitmojiStickers/services/repo/user_repo.dart';
-import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:http/http.dart';
 import 'package:injectable/injectable.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:http/http.dart' as http;
 
@@ -36,8 +30,21 @@ class UserApi extends UserRepo {
     final loginUrl = "https://api.bitmoji.com/user/login";
     final avatartUrl = "https://api.bitmoji.com/user/avatar";
     final logoutUrl = "https://api.bitmoji.com/user/logout";
-    final formData =
-        "client_id=imoji&username=nilkadam085%40gmail.com&password=nilesh%40bitmoji&grant_type=password&client_secret=secret";
+    final _userData = {
+      "client_id": "imoji",
+      "username": email,
+      "password": password,
+      "grant_type": "password",
+      "client_secret": "secret"
+    };
+    var parts = [];
+    _userData.forEach((key, value) {
+      parts.add('${Uri.encodeQueryComponent(key)}='
+          '${Uri.encodeQueryComponent(value)}');
+    });
+
+    var formData = parts.join('&');
+
     final headers = {
       "Accept": "application/json",
       "Accept-Encoding": "gzip, deflate, br",
@@ -48,6 +55,7 @@ class UserApi extends UserRepo {
       "Origin": "https://www.bitmoji.com",
       "Referer": "https://www.bitmoji.com/account_v2/"
     };
+
     Response loginRes = await http.Client().post(
       loginUrl,
       body: formData,

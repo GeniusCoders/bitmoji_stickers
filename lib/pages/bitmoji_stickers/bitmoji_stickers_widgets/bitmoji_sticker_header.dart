@@ -1,18 +1,32 @@
-import 'dart:io';
-
+import 'package:BitmojiStickers/models/dynamic_data/bitmoji_id.dart';
 import 'package:BitmojiStickers/styles/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:http/http.dart' show get;
-import 'package:path_provider/path_provider.dart';
+import '../../../injection.dart';
 import 'button.dart';
-import 'package:path/path.dart';
 
-class BitmojiStickerHeader extends StatelessWidget {
+class BitmojiStickerHeader extends StatefulWidget {
   final onPress;
-  final String avatar = "12430618-b508-4d2e-b2c8-17eaf61217b2";
+  final String stickerId;
+  final String stickerName;
+  const BitmojiStickerHeader({
+    @required this.onPress,
+    @required this.stickerId,
+    @required this.stickerName,
+  });
 
-  const BitmojiStickerHeader({this.onPress});
+  @override
+  _BitmojiStickerHeaderState createState() => _BitmojiStickerHeaderState();
+}
+
+class _BitmojiStickerHeaderState extends State<BitmojiStickerHeader> {
+  String avatar = '12430618-b508-4d2e-b2c8-17eaf61217b2';
+
+  @override
+  void initState() {
+    super.initState();
+    avatar = getIt<BitmojiIdData>().bitmojiIdValue;
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +37,7 @@ class BitmojiStickerHeader extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Image.network(
-              'https://render.bitstrips.com/v2/cpanel/10219680-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.png?transparent=1&palette=1&width=100'),
+              'https://render.bitstrips.com/v2/cpanel/${widget.stickerId}-$avatar-v1.png?transparent=1&palette=1&width=100'),
           SizedBox(
             width: 4.w,
           ),
@@ -33,7 +47,7 @@ class BitmojiStickerHeader extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Bitmoji Stickers HI',
+                  'Bitmoji Stickers ${widget.stickerName}',
                   style: TextStyle(
                       fontWeight: FontWeight.w600,
                       fontSize: 16.sp,
@@ -46,7 +60,7 @@ class BitmojiStickerHeader extends StatelessWidget {
                 SizedBox(
                   height: 16.h,
                 ),
-                Button(isInstall: false, onPress: onPress)
+                Button(isInstall: false, onPress: widget.onPress)
               ],
             ),
           )
