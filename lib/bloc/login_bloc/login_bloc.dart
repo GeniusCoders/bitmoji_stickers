@@ -19,8 +19,13 @@ class LoginBloc extends Bloc<LoginEvent, LoginState> {
   ) async* {
     if (event is LoginButtonEvent) {
       yield LoginLoading();
-      userRepo.signIn(event.email, event.password);
+      await userRepo.signIn(event.email, event.password);
       yield LoginSuccess();
+    }
+    if (event is LogoutButtonEvent) {
+      yield LoginLoading();
+      await userRepo.signOut();
+      yield Logout();
     }
   }
 }

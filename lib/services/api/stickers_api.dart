@@ -30,7 +30,8 @@ class StickersApi extends StickersRepo {
   @override
   Future<String> getBitmojiId() async {
     SharedPreferences prefs = await _prefs;
-    final data = prefs.getString('data');
+    String data = prefs.getString('data');
+    print(data);
     return jsonDecode(data);
   }
 

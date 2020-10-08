@@ -2,9 +2,7 @@ import 'dart:async';
 
 import 'package:BitmojiStickers/models/stickers_model/stickers_model.dart';
 import 'package:BitmojiStickers/services/repo/stickers_repo.dart';
-import 'package:BitmojiStickers/util/utils.dart';
 import 'package:bloc/bloc.dart';
-import 'package:flutter_whatsapp_stickers/flutter_whatsapp_stickers.dart';
 import 'package:injectable/injectable.dart';
 import 'package:meta/meta.dart';
 

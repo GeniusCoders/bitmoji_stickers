@@ -1,3 +1,4 @@
+import 'package:BitmojiStickers/bloc/login_bloc/login_bloc.dart';
 import 'package:BitmojiStickers/pages/Dashboard/dashboard_page.dart';
 import 'package:BitmojiStickers/pages/login/login_page.dart';
 import 'package:BitmojiStickers/pages/splash/splash.dart';
@@ -50,7 +51,10 @@ class MyApp extends StatelessWidget {
           return BlocBuilder<AuthBloc, AuthState>(
             builder: (context, state) {
               if (state is AppAuth) {
-                return DashboardPage();
+                return BlocProvider(
+                  create: (context) => getIt<LoginBloc>(),
+                  child: DashboardPage(),
+                );
               } else if (state is AppUnAuth) {
                 return LoginPage();
               }
