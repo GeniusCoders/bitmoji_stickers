@@ -1,10 +1,5 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
-
-// **************************************************************************
-// InjectableConfigGenerator
-// **************************************************************************
-
 import 'package:BitmojiStickers/models/dynamic_data/bitmoji_id.dart';
+import 'package:BitmojiStickers/util/ads/ads_data/ads_data.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:BitmojiStickers/services/core/register_module.dart';
 import 'package:BitmojiStickers/bloc/sticker_bloc/sticker_bloc_bloc.dart';
@@ -19,6 +14,7 @@ import 'package:get_it/get_it.dart';
 void $initGetIt(GetIt g, {String environment}) {
   final registerModule = _$RegisterModule();
   g.registerLazySingleton<BitmojiIdData>(() => BitmojiIdData());
+  g.registerLazySingleton<AdsData>(() => AdsData());
   g.registerLazySingletonAsync<SharedPreferences>(() => registerModule.prefs);
   g.registerFactory<StickerBloc>(
       () => StickerBloc(stickersRepo: g<StickersRepo>()));

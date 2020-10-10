@@ -4,7 +4,10 @@ import 'package:BitmojiStickers/bloc/sticker_bloc/sticker_bloc_bloc.dart';
 import 'package:BitmojiStickers/models/dynamic_data/bitmoji_id.dart';
 import 'package:BitmojiStickers/models/stickers_model/stickers_model.dart';
 import 'package:BitmojiStickers/pages/loading/loading.dart';
+import 'package:BitmojiStickers/util/ads/ads_data/ads_data.dart';
+import 'package:BitmojiStickers/util/ads/baner_adview.dart';
 import 'package:BitmojiStickers/util/utils.dart';
+import 'package:firebase_admob/firebase_admob.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_whatsapp_stickers/flutter_whatsapp_stickers.dart';
@@ -34,7 +37,7 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
   Directory _stickerPacksDirectory;
   File _stickerPacksConfigFile;
   Map<String, dynamic> _stickerPacksConfig;
-
+  BannerAd _bannerAd;
   String _stickerPackIdentifier;
 
   @override
@@ -42,7 +45,18 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
     super.initState();
     BlocProvider.of<StickerBloc>(context)
         .add(GetStickers(strickerPath: widget.stickerPathName));
+    FirebaseAdMob.instance.initialize(appId: BannerAdView.adUnitId);
+    _bannerAd = BannerAdView.createBannerAd(getIt<AdsData>().bannerAd3)
+      ..load()
+      ..show();
     prepareFolderStructure();
+  }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+    _bannerAd.dispose();
   }
 
   void prepareFolderStructure() async {
@@ -79,22 +93,22 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
           _stickerPackIdentifier = state.stickerResponse.identifier;
         }
         if (state is DownloadSucces) {
-          _waStickers.updatedStickerPacks(_stickerPackIdentifier);
-          print("_____________________IA MA HERRR");
-          _waStickers.addStickerPack(
-            packageName: WhatsAppPackage.Consumer,
-            stickerPackIdentifier: _stickerPackIdentifier,
-            stickerPackName: 'Bitmoji $_stickerPackIdentifier',
-            listener: (action, result, {error}) => processResponse(
-              action: action,
-              result: result,
-              error: error,
-              successCallback: () {
-                print("HELLO______________________");
-              },
-              context: context,
-            ),
-          );
+          // _waStickers.updatedStickerPacks(_stickerPackIdentifier);
+          // print("_____________________IA MA HERRR");
+          // _waStickers.addStickerPack(
+          //   packageName: WhatsAppPackage.Consumer,
+          //   stickerPackIdentifier: _stickerPackIdentifier,
+          //   stickerPackName: 'Bitmoji $_stickerPackIdentifier',
+          //   listener: (action, result, {error}) => processResponse(
+          //     action: action,
+          //     result: result,
+          //     error: error,
+          //     successCallback: () {
+          //       print("HELLO______________________");
+          //     },
+          //     context: context,
+          //   ),
+          // );
         }
       },
       builder: (context, state) {

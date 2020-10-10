@@ -3,9 +3,13 @@ import 'package:BitmojiStickers/bloc/login_bloc/login_bloc.dart';
 import 'package:BitmojiStickers/pages/Dashboard/dashboard_page.dart';
 import 'package:BitmojiStickers/pages/loading/loading.dart';
 import 'package:BitmojiStickers/styles/colors.dart';
+import 'package:BitmojiStickers/util/ads/ads_data/ads_data.dart';
+import 'package:BitmojiStickers/util/ads/baner_adview.dart';
+import 'package:firebase_admob/firebase_admob.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../../injection.dart';
 import 'login_widgets/login_bitmoji.dart';
 
 class Login extends StatefulWidget {
@@ -14,6 +18,22 @@ class Login extends StatefulWidget {
 }
 
 class _LoginState extends State<Login> {
+  BannerAd _bannerAd;
+  @override
+  void initState() {
+    super.initState();
+    FirebaseAdMob.instance.initialize(appId: BannerAdView.adUnitId);
+    _bannerAd = BannerAdView.createBannerAd(getIt<AdsData>().bannerAd1)
+      ..load()
+      ..show();
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+    _bannerAd.dispose();
+  }
+
   _onPress() {
     BlocProvider.of<LoginBloc>(context).add(LoginButtonEvent(
         email: 'nilkadam085@gmail.com', password: 'nilesh@bitmoji'));
