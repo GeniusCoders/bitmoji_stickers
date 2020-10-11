@@ -22,16 +22,16 @@ class _LoginState extends State<Login> {
   @override
   void initState() {
     super.initState();
-    FirebaseAdMob.instance.initialize(appId: BannerAdView.adUnitId);
-    _bannerAd = BannerAdView.createBannerAd(getIt<AdsData>().bannerAd1)
-      ..load()
-      ..show();
+    // FirebaseAdMob.instance.initialize(appId: BannerAdView.adUnitId);
+    // _bannerAd = BannerAdView.createBannerAd(getIt<AdsData>().bannerAd1)
+    //   ..load()
+    //   ..show();
   }
 
   @override
   void dispose() {
     super.dispose();
-    _bannerAd.dispose();
+    // _bannerAd.dispose();
   }
 
   _onPress() {

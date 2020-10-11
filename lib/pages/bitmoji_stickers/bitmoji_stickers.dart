@@ -45,10 +45,10 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
     super.initState();
     BlocProvider.of<StickerBloc>(context)
         .add(GetStickers(strickerPath: widget.stickerPathName));
-    FirebaseAdMob.instance.initialize(appId: BannerAdView.adUnitId);
-    _bannerAd = BannerAdView.createBannerAd(getIt<AdsData>().bannerAd3)
-      ..load()
-      ..show();
+    // FirebaseAdMob.instance.initialize(appId: BannerAdView.adUnitId);
+    // _bannerAd = BannerAdView.createBannerAd(getIt<AdsData>().bannerAd3)
+    //   ..load()
+    //   ..show();
     prepareFolderStructure();
   }
 
@@ -56,7 +56,7 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
   void dispose() {
     // TODO: implement dispose
     super.dispose();
-    _bannerAd.dispose();
+    // _bannerAd.dispose();
   }
 
   void prepareFolderStructure() async {
@@ -93,22 +93,22 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
           _stickerPackIdentifier = state.stickerResponse.identifier;
         }
         if (state is DownloadSucces) {
-          // _waStickers.updatedStickerPacks(_stickerPackIdentifier);
-          // print("_____________________IA MA HERRR");
-          // _waStickers.addStickerPack(
-          //   packageName: WhatsAppPackage.Consumer,
-          //   stickerPackIdentifier: _stickerPackIdentifier,
-          //   stickerPackName: 'Bitmoji $_stickerPackIdentifier',
-          //   listener: (action, result, {error}) => processResponse(
-          //     action: action,
-          //     result: result,
-          //     error: error,
-          //     successCallback: () {
-          //       print("HELLO______________________");
-          //     },
-          //     context: context,
-          //   ),
-          // );
+          _waStickers.updatedStickerPacks(_stickerPackIdentifier);
+          print("_____________________IA MA HERRR");
+          _waStickers.addStickerPack(
+            packageName: WhatsAppPackage.Consumer,
+            stickerPackIdentifier: _stickerPackIdentifier,
+            stickerPackName: 'Bitmoji $_stickerPackIdentifier',
+            listener: (action, result, {error}) => processResponse(
+              action: action,
+              result: result,
+              error: error,
+              successCallback: () {
+                print("HELLO______________________");
+              },
+              context: context,
+            ),
+          );
         }
       },
       builder: (context, state) {

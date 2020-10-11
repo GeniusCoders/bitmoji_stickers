@@ -23,16 +23,16 @@ class _DashboardState extends State<Dashboard> {
   void initState() {
     super.initState();
     BlocProvider.of<StickerBloc>(context).add(GetBitmojiId());
-    FirebaseAdMob.instance.initialize(appId: BannerAdView.adUnitId);
-    _bannerAd = BannerAdView.createBannerAd(getIt<AdsData>().bannerAd2)
-      ..load()
-      ..show();
+    // FirebaseAdMob.instance.initialize(appId: BannerAdView.adUnitId);
+    // _bannerAd = BannerAdView.createBannerAd(getIt<AdsData>().bannerAd2)
+    //   ..load()
+    //   ..show();
   }
 
   @override
   void dispose() {
     super.dispose();
-    _bannerAd.dispose();
+    // _bannerAd.dispose();
   }
 
   @override

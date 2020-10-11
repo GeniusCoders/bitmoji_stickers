@@ -1,40 +1,36 @@
 {
     "identifier": "hi",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/10226887-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=96",
     "data": [
-        "https://sdk.bitmoji.com/render/panel/ani-20014339-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=1",
-        "https://sdk.bitmoji.com/render/panel/ani-20013399-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=1",
-        "https://sdk.bitmoji.com/render/panel/ani-20010560-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/ani-20016197-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/ani-20022538-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10226887-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/20041855-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/20048117-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/20036411-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10218409-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/20036416-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10214011-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/20034131-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/20049503-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/20037520-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10212618-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10231352-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/20022129-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/20030088-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/20032875-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/20043644-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/20043089-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10221130-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10217120-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/20041011-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10211503-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10224270-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10233001-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10226885-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10212404-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10176537-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/8786003-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/20045667-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10219348-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0"
+        "https://sdk.bitmoji.com/render/panel/10226887-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20041855-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20048117-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20036411-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10218409-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20036416-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10214011-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20034131-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20049503-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20037520-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10212618-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10231352-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20022129-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20030088-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20032875-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20043644-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20043089-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10221130-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10217120-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20041011-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10211503-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10224270-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10233001-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10226885-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10212404-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10176537-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/8786003-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20045667-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10219348-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&width=512"
     ],
     "config": {
         "identifier": "hi",
@@ -47,8 +43,7 @@
         "publisher_website": "",
         "privacy_policy_website": "",
         "license_agreement_website": "",
-        "stickers": [
-            {
+        "stickers": [{
                 "image_file": "hi_0.webp",
                 "emojis": [
                     "☕"
@@ -98,6 +93,30 @@
             },
             {
                 "image_file": "hi_8.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_9.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_10.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_11.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_12.webp",
                 "emojis": [
                     "☕"
                 ]
