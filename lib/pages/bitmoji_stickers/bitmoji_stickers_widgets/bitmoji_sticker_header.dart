@@ -20,7 +20,7 @@ class BitmojiStickerHeader extends StatefulWidget {
 }
 
 class _BitmojiStickerHeaderState extends State<BitmojiStickerHeader> {
-  String avatar = '12430618-b508-4d2e-b2c8-17eaf61217b2';
+  String avatar = '%s';
 
   @override
   void initState() {
@@ -36,8 +36,12 @@ class _BitmojiStickerHeaderState extends State<BitmojiStickerHeader> {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Image.network(
-              'https://render.bitstrips.com/v2/cpanel/${widget.stickerId}-$avatar-v1.png?transparent=1&palette=1&width=100'),
+          Container(
+            height: 90.w,
+            width: 90.w,
+            child: Image.network(
+                'https://render.bitstrips.com/v2/cpanel/${widget.stickerId}-$avatar-v1.png?transparent=1&palette=1&width=512'),
+          ),
           SizedBox(
             width: 4.w,
           ),

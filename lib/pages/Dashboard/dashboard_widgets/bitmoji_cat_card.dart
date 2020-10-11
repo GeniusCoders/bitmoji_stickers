@@ -50,8 +50,14 @@ class BitmojiCatCard extends StatelessWidget {
                 builder: (context, snapshot) {
                   if (snapshot.hasData) {
                     String _id = snapshot.data;
-                    return Image.network(
-                        'https://render.bitstrips.com/v2/cpanel/$urlid-$_id-v1.png?transparent=1&palette=1&width=100');
+                    return Container(
+                      width: 100.w,
+                      height: 100.w,
+                      child: Image.network(
+                        'https://render.bitstrips.com/v2/cpanel/$urlid-$_id-v1.png?transparent=1&palette=1&width=512',
+                        fit: BoxFit.cover,
+                      ),
+                    );
                   }
                   return Container(
                     height: 100.h,

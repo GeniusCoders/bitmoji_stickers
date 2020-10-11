@@ -19,6 +19,8 @@ class Login extends StatefulWidget {
 
 class _LoginState extends State<Login> {
   BannerAd _bannerAd;
+  TextEditingController _emailController;
+  TextEditingController _passwordController;
   @override
   void initState() {
     super.initState();
@@ -26,6 +28,8 @@ class _LoginState extends State<Login> {
     // _bannerAd = BannerAdView.createBannerAd(getIt<AdsData>().bannerAd1)
     //   ..load()
     //   ..show();
+    _emailController = TextEditingController();
+    _passwordController = TextEditingController();
   }
 
   @override
@@ -36,7 +40,7 @@ class _LoginState extends State<Login> {
 
   _onPress() {
     BlocProvider.of<LoginBloc>(context).add(LoginButtonEvent(
-        email: 'nilkadam085@gmail.com', password: 'nilesh@bitmoji'));
+        email: _emailController.text, password: _passwordController.text));
   }
 
   @override
@@ -68,6 +72,7 @@ class _LoginState extends State<Login> {
                           height: 4.h,
                         ),
                         TextFormField(
+                          controller: _emailController,
                           decoration: InputDecoration(
                               prefixIcon: Icon(
                                 Icons.email,
@@ -86,6 +91,7 @@ class _LoginState extends State<Login> {
                           height: 4.h,
                         ),
                         TextFormField(
+                          controller: _passwordController,
                           obscureText: true,
                           decoration: InputDecoration(
                               prefixIcon: Icon(

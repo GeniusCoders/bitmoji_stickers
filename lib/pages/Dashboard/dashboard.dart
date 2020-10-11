@@ -165,7 +165,6 @@ List<Map<String, dynamic>> list = [
     "pathName": 'food',
   },
   {"cat_id": "10222032", "title": "Mad", "color": purple, "pathName": 'mad'},
-  {"cat_id": "20053157", "title": "New", "color": yellow, "pathName": 'new'},
   {
     "cat_id": "9946988",
     "title": "Question",

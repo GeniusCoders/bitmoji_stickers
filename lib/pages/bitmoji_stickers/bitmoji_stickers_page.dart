@@ -20,11 +20,16 @@ class BitmojiStickerPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back, color: white),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
         title: Text(
           stickerName,
           style: TextStyle(color: white),
         ),
-        backgroundColor: blue,
       ),
       body: BlocProvider<StickerBloc>(
         create: (context) => StickerBloc(stickersRepo: getIt<StickersRepo>()),

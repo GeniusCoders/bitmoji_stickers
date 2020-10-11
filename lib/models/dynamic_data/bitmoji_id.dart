@@ -3,8 +3,7 @@ import 'package:rxdart/subjects.dart';
 
 @lazySingleton
 class BitmojiIdData {
-  BehaviorSubject<String> _id =
-      BehaviorSubject<String>.seeded('12430618-b508-4d2e-b2c8-17eaf61217b2');
+  BehaviorSubject<String> _id = BehaviorSubject<String>.seeded('%s');
 
   Stream get bitmojiId$ => _id.stream;
 

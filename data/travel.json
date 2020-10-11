@@ -1,18 +1,19 @@
 {
     "identifier": "travel",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/10226887-%s-v1.webp?transparent=1&width=96",
     "data": [
-        "https://sdk.bitmoji.com/render/panel/10227702-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10226714-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10039921-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10161404-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/20043091-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10214041-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10226713-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10226829-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/20005339-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/20010036-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10211857-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0",
-        "https://sdk.bitmoji.com/render/panel/10156048-12430618-b508-4d2e-b2c8-17eaf61217b2-v1.webp?transparent=1&scale=0"
+        "https://sdk.bitmoji.com/render/panel/20043091-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10161404-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10211857-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10039921-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10227702-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10214041-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10156048-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20010036-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20005339-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10226713-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10226829-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10226714-%s-v1.webp?transparent=1&width=512"
     ],
     "config": {
         "identifier": "travel",

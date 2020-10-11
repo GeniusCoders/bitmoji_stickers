@@ -30,6 +30,10 @@ class UserApi extends UserRepo {
     final loginUrl = "https://api.bitmoji.com/user/login";
     final avatartUrl = "https://api.bitmoji.com/user/avatar";
     final logoutUrl = "https://api.bitmoji.com/user/logout";
+    print("______");
+    print(email);
+    print(password);
+    print("______");
     final _userData = {
       "client_id": "imoji",
       "username": email,
@@ -82,10 +86,11 @@ class UserApi extends UserRepo {
     );
 
     final avatarJson = jsonDecode(avatarRes.body);
-
+    print("______");
     print(avatarJson);
-
+    print("______");
     SharedPreferences prefs = await _prefs;
+    prefs.reload();
     prefs.setString('data', jsonEncode(avatarJson['avatar_version_uuid']));
 
     Response logoutRes = await http.Client().post(

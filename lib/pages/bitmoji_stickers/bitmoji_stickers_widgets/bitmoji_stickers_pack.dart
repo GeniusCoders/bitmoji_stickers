@@ -1,12 +1,27 @@
-import 'package:BitmojiStickers/models/stickers_model/stickers_model.dart';
+import 'package:BitmojiStickers/models/dynamic_data/bitmoji_id.dart';
 import 'package:BitmojiStickers/styles/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class BitmojiStickersPack extends StatelessWidget {
+import '../../../injection.dart';
+
+class BitmojiStickersPack extends StatefulWidget {
   final List<dynamic> data;
-  final String avatar = "12430618-b508-4d2e-b2c8-17eaf61217b2";
+
   const BitmojiStickersPack({@required this.data});
+
+  @override
+  _BitmojiStickersPackState createState() => _BitmojiStickersPackState();
+}
+
+class _BitmojiStickersPackState extends State<BitmojiStickersPack> {
+  String avatar;
+
+  @override
+  void initState() {
+    super.initState();
+    avatar = getIt<BitmojiIdData>().bitmojiIdValue;
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -31,9 +46,12 @@ class BitmojiStickersPack extends StatelessWidget {
                   crossAxisCount: 3,
                   childAspectRatio: 1,
                 ),
-                itemCount: data.length,
+                itemCount: widget.data.length,
                 itemBuilder: (context, index) {
-                  var stickerImg = data[index].replaceAll('%s', avatar);
+                  var stickerImg = widget.data[index].replaceAll('%s', avatar);
+                  print("______");
+                  print(stickerImg);
+                  print("______");
                   return Container(
                     decoration: BoxDecoration(
                         color: white,

@@ -16,8 +16,8 @@ class Button extends StatelessWidget {
         width: double.infinity,
         alignment: Alignment.center,
         decoration: BoxDecoration(
-            color: isInstall ? Color(0xFFcccccc) : blue,
-            borderRadius: BorderRadius.circular(16.w)),
+            color: isInstall ? Color(0xFFcccccc) : primaryColor,
+            borderRadius: BorderRadius.circular(10.w)),
         child: Text(
           isInstall ? 'Added' : 'Add To WhatsApp',
           style: TextStyle(color: white, fontWeight: FontWeight.w600),
