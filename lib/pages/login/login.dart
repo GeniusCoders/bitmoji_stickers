@@ -1,15 +1,11 @@
-import 'package:BitmojiStickers/bloc/auth_bloc/auth_bloc.dart';
 import 'package:BitmojiStickers/bloc/login_bloc/login_bloc.dart';
 import 'package:BitmojiStickers/pages/Dashboard/dashboard_page.dart';
 import 'package:BitmojiStickers/pages/loading/loading.dart';
 import 'package:BitmojiStickers/styles/colors.dart';
-import 'package:BitmojiStickers/util/ads/ads_data/ads_data.dart';
-import 'package:BitmojiStickers/util/ads/baner_adview.dart';
 import 'package:firebase_admob/firebase_admob.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import '../../injection.dart';
 import 'login_widgets/login_bitmoji.dart';
 
 class Login extends StatefulWidget {
@@ -19,6 +15,8 @@ class Login extends StatefulWidget {
 
 class _LoginState extends State<Login> {
   BannerAd _bannerAd;
+  bool _isPasswordhide = true;
+
   TextEditingController _emailController;
   TextEditingController _passwordController;
   @override
@@ -39,6 +37,7 @@ class _LoginState extends State<Login> {
   }
 
   _onPress() {
+    FocusScope.of(context).requestFocus(FocusNode());
     BlocProvider.of<LoginBloc>(context).add(LoginButtonEvent(
         email: _emailController.text, password: _passwordController.text));
   }
@@ -50,6 +49,16 @@ class _LoginState extends State<Login> {
         Navigator.of(context).pushAndRemoveUntil(
             MaterialPageRoute(builder: (context) => DashboardPage()),
             (Route<dynamic> route) => false);
+      }
+      if (state is LoginFailed) {
+        Scaffold.of(context).showSnackBar(SnackBar(
+          content: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [Expanded(child: Text(state.error)), Icon(Icons.error)],
+          ),
+          duration: Duration(milliseconds: 1000),
+          backgroundColor: Colors.red,
+        ));
       }
     }, builder: (context, state) {
       return SingleChildScrollView(
@@ -92,14 +101,28 @@ class _LoginState extends State<Login> {
                         ),
                         TextFormField(
                           controller: _passwordController,
-                          obscureText: true,
+                          obscureText: _isPasswordhide,
                           decoration: InputDecoration(
-                              prefixIcon: Icon(
-                                Icons.lock,
-                                size: 22,
+                            prefixIcon: Icon(
+                              Icons.lock,
+                              size: 22,
+                            ),
+                            hintText: 'Password',
+                            border: InputBorder.none,
+                            suffixIcon: IconButton(
+                              onPressed: () {
+                                setState(() {
+                                  _isPasswordhide = !_isPasswordhide;
+                                });
+                              },
+                              icon: Icon(
+                                _isPasswordhide
+                                    ? Icons.visibility
+                                    : Icons.visibility_off,
+                                size: 18.sp,
                               ),
-                              hintText: 'Password',
-                              border: InputBorder.none),
+                            ),
+                          ),
                         ),
                         SizedBox(
                           height: 6.h,
