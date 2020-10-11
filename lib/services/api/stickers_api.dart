@@ -49,48 +49,54 @@ class StickersApi extends StickersRepo {
         jsonDecode((await _stickerPacksConfigFile.readAsString()));
     List<dynamic> _storedStickerPacks = _stickerPacksConfig['sticker_packs'];
 
-    print("I am Start______");
     Directory packageDirectory =
         Directory("${_stickerPacksDirectory.path}/$identfier")
           ..create(recursive: true);
-    print("packageDirectory______$packageDirectory");
 
     print(stickerData.data);
 
-    final stickerImg = stickerData.trayImg.replaceAll('%s', avatar);
-    final response = await get(stickerImg);
+    File _trayIconFile = File("${packageDirectory.path}/tray-icon.png");
 
-    File("${packageDirectory.path}/tray-icon.png")
-      ..createSync(recursive: true)
-      ..writeAsBytesSync(response.bodyBytes);
-
-    for (int i = 0; i < stickerData.data.length; i++) {
-      var stickerImg = stickerData.data[i].replaceAll('%s', avatar);
+    if (!await _trayIconFile.exists()) {
+      final stickerImg = stickerData.trayImg.replaceAll('%s', avatar);
       final response = await get(stickerImg);
 
-      final codec = await instantiateImageCodec(response.bodyBytes);
-      final frame = await codec.getNextFrame();
-      final uiImage = frame.image;
-      File("${packageDirectory.path}/${identfier}_$i.webp")
+      _trayIconFile
         ..createSync(recursive: true)
         ..writeAsBytesSync(response.bodyBytes);
-      print("width = ${uiImage.width}");
-      print("height = ${uiImage.height}");
-      print("_____________");
+    }
 
-      if (uiImage.width > 512 || uiImage.height > 512) {
-        final img.Image imageTemp = img.decodeWebP(response.bodyBytes);
-        final img.Image resizeImg =
-            img.copyResize(imageTemp, width: 512, height: 512);
+    for (int i = 0; i < stickerData.data.length; i++) {
+      File _stickerFile = File("${packageDirectory.path}/${identfier}_$i.webp");
 
-        File("${packageDirectory.path}/${identfier}_$i.web")
+      if (!await _stickerFile.exists()) {
+        var stickerImg = stickerData.data[i].replaceAll('%s', avatar);
+        final response = await get(stickerImg);
+
+        final codec = await instantiateImageCodec(response.bodyBytes);
+        final frame = await codec.getNextFrame();
+        final uiImage = frame.image;
+        _stickerFile
           ..createSync(recursive: true)
-          ..writeAsBytesSync(img.encodePng(resizeImg));
+          ..writeAsBytesSync(response.bodyBytes);
+        print("width = ${uiImage.width}");
+        print("height = ${uiImage.height}");
+        print("_____________");
+
+        if (uiImage.width > 512 || uiImage.height > 512) {
+          final img.Image imageTemp = img.decodeWebP(response.bodyBytes);
+          final img.Image resizeImg =
+              img.copyResize(imageTemp, width: 512, height: 512);
+
+          File("${packageDirectory.path}/${identfier}_$i.web")
+            ..createSync(recursive: true)
+            ..writeAsBytesSync(img.encodePng(resizeImg));
+        }
       }
     }
 
     File packageContentsFile = File("${packageDirectory.path}/config.json");
-
+    print(packageDirectory.path);
     String configFileContent = jsonEncode(stickerData.config) + "\n";
     packageContentsFile.writeAsStringSync(configFileContent, flush: true);
 
