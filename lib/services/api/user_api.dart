@@ -87,11 +87,10 @@ class UserApi extends UserRepo {
 
     final avatarJson = jsonDecode(avatarRes.body);
     print("______");
-    print(avatarJson);
+    print(avatarJson['avatar_version_uuid']);
     print("______");
-    SharedPreferences prefs = await _prefs;
-    prefs.reload();
-    prefs.setString('data', jsonEncode(avatarJson['avatar_version_uuid']));
+    final SharedPreferences prefs = await _prefs;
+    prefs.setString('data', avatarJson['avatar_version_uuid']);
 
     Response logoutRes = await http.Client().post(
       logoutUrl,

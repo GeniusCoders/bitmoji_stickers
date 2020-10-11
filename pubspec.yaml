@@ -36,7 +36,7 @@ dependencies:
   image: ^2.1.18
   get_it: ^4.0.2
   injectable: ^0.3.0
-  shared_preferences: ^0.5.12
+  shared_preferences: ^0.5.7+3
   rxdart: ^0.24.1
   firebase_admob: ^0.10.0+2
 

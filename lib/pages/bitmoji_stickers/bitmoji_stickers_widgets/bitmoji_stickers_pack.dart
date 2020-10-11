@@ -49,9 +49,6 @@ class _BitmojiStickersPackState extends State<BitmojiStickersPack> {
                 itemCount: widget.data.length,
                 itemBuilder: (context, index) {
                   var stickerImg = widget.data[index].replaceAll('%s', avatar);
-                  print("______");
-                  print(stickerImg);
-                  print("______");
                   return Container(
                     decoration: BoxDecoration(
                         color: white,

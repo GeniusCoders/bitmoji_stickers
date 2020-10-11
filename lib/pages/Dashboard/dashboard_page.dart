@@ -1,3 +1,4 @@
+import 'package:BitmojiStickers/bloc/auth_bloc/auth_bloc.dart';
 import 'package:BitmojiStickers/bloc/login_bloc/login_bloc.dart';
 import 'package:BitmojiStickers/bloc/sticker_bloc/sticker_bloc_bloc.dart';
 import 'package:BitmojiStickers/pages/Dashboard/dashboard.dart';
@@ -15,7 +16,7 @@ class DashboardPage extends StatefulWidget {
 
 class _DashboardPageState extends State<DashboardPage> {
   _onLogout() {
-    BlocProvider.of<LoginBloc>(context).add(LogoutButtonEvent());
+    BlocProvider.of<AuthBloc>(context).add(Logout());
     Navigator.of(context)
         .pushNamedAndRemoveUntil('/', (Route<dynamic> route) => false);
   }
@@ -37,10 +38,10 @@ class _DashboardPageState extends State<DashboardPage> {
               onPressed: _onLogout)
         ],
       ),
-      body: BlocProvider(
-        create: (context) => getIt<StickerBloc>(),
-        child: Dashboard(),
-      ),
+      body: MultiBlocProvider(providers: [
+        BlocProvider<StickerBloc>(create: (context) => getIt<StickerBloc>()),
+        BlocProvider<AuthBloc>(create: (context) => getIt<AuthBloc>()),
+      ], child: Dashboard()),
     );
   }
 }

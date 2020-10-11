@@ -9,5 +9,3 @@ class LoginButtonEvent extends LoginEvent {
 
   LoginButtonEvent({@required this.email, @required this.password});
 }
-
-class LogoutButtonEvent extends LoginEvent {}

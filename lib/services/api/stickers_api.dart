@@ -23,15 +23,16 @@ class StickersApi extends StickersRepo {
   Future<StickerResponse> loadSticker({String stickerPathName}) async {
     final file = await rootBundle.loadString('data/$stickerPathName.json');
     final jsonResponse = json.decode(file);
-
     return StickerResponse.fromJson(jsonResponse);
   }
 
   @override
   Future<String> getBitmojiId() async {
-    SharedPreferences prefs = await _prefs;
+    final SharedPreferences prefs = await _prefs;
+    prefs.reload();
     final data = prefs.getString('data');
-    return jsonDecode(data);
+
+    return data;
   }
 
   @override

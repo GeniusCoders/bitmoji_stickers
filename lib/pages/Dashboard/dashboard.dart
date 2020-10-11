@@ -41,6 +41,9 @@ class _DashboardState extends State<Dashboard> {
       listener: (context, state) {
         if (state is BitmojiId) {
           getIt<BitmojiIdData>().addBitmojiId(id: state.id);
+          print("_______");
+          print(state.id);
+          print("_______");
         }
       },
       builder: (context, state) => SingleChildScrollView(
