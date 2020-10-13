@@ -23,8 +23,8 @@
     ],
     "config": {
         "identifier": "missyou",
-        "name": "Bitmoji Miss You",
-        "publisher": "Bitmoji",
+        "name": "BitSticker Miss You",
+        "publisher": "BitSticker",
         "tray_image_file": "tray-icon.png",
         "image_data_version": "1",
         "avoid_cache": false,

@@ -27,8 +27,8 @@
     ],
     "config": {
         "identifier": "sorry",
-        "name": "Bitmoji Sorry",
-        "publisher": "Bitmoji",
+        "name": "BitSticker Sorry",
+        "publisher": "BitSticker",
         "tray_image_file": "tray-icon.png",
         "image_data_version": "1",
         "avoid_cache": false,

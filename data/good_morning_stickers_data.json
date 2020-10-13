@@ -26,8 +26,8 @@
     ],
     "config": {
         "identifier": "goodmorning",
-        "name": "Bitmoji GoodMorning",
-        "publisher": "Bitmoji",
+        "name": "BitSticker GoodMorning",
+        "publisher": "BitSticker",
         "tray_image_file": "tray-icon.png",
         "image_data_version": "1",
         "avoid_cache": false,

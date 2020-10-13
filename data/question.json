@@ -28,8 +28,8 @@
     ],
     "config": {
         "identifier": "new",
-        "name": "Bitmoji new",
-        "publisher": "Bitmoji",
+        "name": "BitSticker new",
+        "publisher": "BitSticker",
         "tray_image_file": "tray-icon.png",
         "image_data_version": "1",
         "avoid_cache": false,

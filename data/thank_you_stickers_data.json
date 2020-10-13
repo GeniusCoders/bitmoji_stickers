@@ -31,18 +31,12 @@
         "https://sdk.bitmoji.com/render/panel/10228334-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/20009375-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/20042243-%s-v1.webp?transparent=1&width=512",
-        "https://sdk.bitmoji.com/render/panel/20003403-%s-v1.webp?transparent=1&width=512",
-        "https://sdk.bitmoji.com/render/panel/20046049-%s-v1.webp?transparent=1&width=512",
-        "https://sdk.bitmoji.com/render/panel/20012018-%s-v1.webp?transparent=1&width=512",
-        "https://sdk.bitmoji.com/render/panel/8398500-%s-v1.webp?transparent=1&width=512",
-        "https://sdk.bitmoji.com/render/panel/10235455-%s-v1.webp?transparent=1&width=512",
-        "https://sdk.bitmoji.com/render/panel/8809964-%s-v1.webp?transparent=1&width=512",
-        "https://sdk.bitmoji.com/render/panel/10232863-%s-v1.webp?transparent=1&width=512"
+        "https://sdk.bitmoji.com/render/panel/20003403-%s-v1.webp?transparent=1&width=512"
     ],
     "config": {
         "identifier": "thankyou",
-        "name": "Bitmoji Thank You",
-        "publisher": "Bitmoji",
+        "name": "BitSticker Thank You",
+        "publisher": "BitSticker",
         "tray_image_file": "tray-icon.png",
         "image_data_version": "1",
         "avoid_cache": false,
