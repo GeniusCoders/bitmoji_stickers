@@ -1,6 +1,6 @@
 {
     "identifier": "sad",
-    "tray_icon": "https://sdk.bitmoji.com/render/panel/10226887-%s-v1.webp?transparent=1&width=96",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/ebc0b6a2-146a-4f39-9283-1704639cd4c7-%s-v1.webp?transparent=1&width=96",
     "data": [
         "https://sdk.bitmoji.com/render/panel/20037129-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/10226799-%s-v1.webp?transparent=1&width=512",
@@ -13,7 +13,7 @@
         "https://sdk.bitmoji.com/render/panel/10222610-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/7197569-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/10099587-%s-v1.webp?transparent=1&width=512",
-        "https://sdk.bitmoji.com/render/panel/20037082-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/ebc0b6a2-146a-4f39-9283-1704639cd4c7-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/10227486-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/10224489-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/10235625-%s-v1.webp?transparent=1&width=512",
@@ -44,8 +44,7 @@
         "publisher_website": "",
         "privacy_policy_website": "",
         "license_agreement_website": "",
-        "stickers": [
-            {
+        "stickers": [{
                 "image_file": "sad_0.webp",
                 "emojis": [
                     "☕"

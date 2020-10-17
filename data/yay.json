@@ -1,8 +1,8 @@
 {
     "identifier": "yay",
-    "tray_icon": "https://sdk.bitmoji.com/render/panel/10226887-%s-v1.webp?transparent=1&width=96",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/20007228-%s-v1.webp?transparent=1&width=96",
     "data": [
-        "https://sdk.bitmoji.com/render/panel/20002089-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20007228-%s-v1.webp?transparent=1&scale=0",
         "https://sdk.bitmoji.com/render/panel/9990684-%s-v1.webp?transparent=1&scale=0",
         "https://sdk.bitmoji.com/render/panel/10221939-%s-v1.webp?transparent=1&scale=0",
         "https://sdk.bitmoji.com/render/panel/20050948-%s-v1.webp?transparent=1&scale=0",
@@ -44,8 +44,7 @@
         "publisher_website": "",
         "privacy_policy_website": "",
         "license_agreement_website": "",
-        "stickers": [
-            {
+        "stickers": [{
                 "image_file": "yay_0.webp",
                 "emojis": [
                     "☕"

@@ -1,6 +1,6 @@
 {
     "identifier": "goodmorning",
-    "tray_icon": "https://sdk.bitmoji.com/render/panel/10226887-%s-v1.webp?transparent=1&width=96",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/b3381b64-4717-4e0a-8999-e73f02cd4693-%s-v1.webp?transparent=1&width=96",
     "data": [
         "https://sdk.bitmoji.com/render/panel/10221297-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/20008548-%s-v1.webp?transparent=1&width=512",
@@ -35,8 +35,7 @@
         "publisher_website": "",
         "privacy_policy_website": "",
         "license_agreement_website": "",
-        "stickers": [
-            {
+        "stickers": [{
                 "image_file": "goodmorning_0.webp",
                 "emojis": [
                     "☕"

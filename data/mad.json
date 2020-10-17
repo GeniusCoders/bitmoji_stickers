@@ -1,6 +1,6 @@
 {
     "identifier": "mad",
-    "tray_icon": "https://sdk.bitmoji.com/render/panel/10226887-%s-v1.webp?transparent=1&width=96",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/10222032-%s-v1.webp?transparent=1&width=96",
     "data": [
         "https://sdk.bitmoji.com/render/panel/20020402-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/20037081-%s-v1.webp?transparent=1&width=512",
@@ -44,8 +44,7 @@
         "publisher_website": "",
         "privacy_policy_website": "",
         "license_agreement_website": "",
-        "stickers": [
-            {
+        "stickers": [{
                 "image_file": "mad_0.webp",
                 "emojis": [
                     "☕"

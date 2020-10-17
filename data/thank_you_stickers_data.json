@@ -1,10 +1,10 @@
 {
     "identifier": "thankyou",
-    "tray_icon": "https://sdk.bitmoji.com/render/panel/10226887-%s-v1.webp?transparent=1&width=96",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/6fbe273c-e60a-4cb1-88bb-7bd645d40b97-%s-v1.webp?transparent=1&width=96",
     "data": [
         "https://sdk.bitmoji.com/render/panel/20003929-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/20002515-%s-v1.webp?transparent=1&width=512",
-        "https://sdk.bitmoji.com/render/panel/9945144-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/6fbe273c-e60a-4cb1-88bb-7bd645d40b97-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/20037246-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/20032886-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/20032952-%s-v1.webp?transparent=1&width=512",
@@ -44,8 +44,7 @@
         "publisher_website": "",
         "privacy_policy_website": "",
         "license_agreement_website": "",
-        "stickers": [
-            {
+        "stickers": [{
                 "image_file": "thankyou_0.webp",
                 "emojis": [
                     "☕"

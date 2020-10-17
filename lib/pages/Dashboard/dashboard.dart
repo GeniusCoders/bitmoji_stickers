@@ -78,13 +78,13 @@ List<Map<String, dynamic>> list = [
     "pathName": 'hi_stickers_data'
   },
   {
-    "cat_id": "bc1da676-51cf-45fa-b90e-d7bbf138220d",
+    "cat_id": "e74b9f2f-be55-40a7-9df5-87ba61910d68",
     "title": "Love U",
     "color": pink,
     "pathName": 'love_u_stickers_data'
   },
   {
-    "cat_id": "f37971ef-4623-4a5c-9c0f-58887e8ea20c",
+    "cat_id": "10226887",
     "title": "Lol",
     "color": green,
     "pathName": 'lol_stickers_data'
@@ -144,7 +144,7 @@ List<Map<String, dynamic>> list = [
     "pathName": 'good_morning_stickers_data'
   },
   {
-    "cat_id": "1398d12a-a778-43c8-b4d9-af806adf7caf",
+    "cat_id": "20047175",
     "title": "Good Night",
     "color": darkBlue,
     "pathName": 'good_night_stickers_data'
@@ -156,7 +156,7 @@ List<Map<String, dynamic>> list = [
     "pathName": 'sorry_stickers_data'
   },
   {
-    "cat_id": "ff288382-e316-4116-9cc1-eca988cc1307",
+    "cat_id": "10217043",
     "title": "Buzzoff",
     "color": purple,
     "pathName": 'buzzoff'

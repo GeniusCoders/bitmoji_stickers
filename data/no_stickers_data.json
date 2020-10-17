@@ -1,6 +1,6 @@
 {
     "identifier": "no",
-    "tray_icon": "https://sdk.bitmoji.com/render/panel/10226887-%s-v1.webp?transparent=1&width=96",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/7ff91094-e4e4-496a-9975-c0b5f6ef26ef-%s-v1.webp?transparent=1&width=96",
     "data": [
         "https://sdk.bitmoji.com/render/panel/10219673-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/10227701-%s-v1.webp?transparent=1&width=512",
@@ -41,8 +41,7 @@
         "publisher_website": "",
         "privacy_policy_website": "",
         "license_agreement_website": "",
-        "stickers": [
-            {
+        "stickers": [{
                 "image_file": "no_0.webp",
                 "emojis": [
                     "☕"

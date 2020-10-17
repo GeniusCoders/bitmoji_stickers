@@ -1,10 +1,10 @@
 {
     "identifier": "goodnight",
-    "tray_icon": "https://sdk.bitmoji.com/render/panel/10226887-%s-v1.webp?transparent=1&width=96",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/20047175-%s-v1.webp?transparent=1&width=96",
     "data": [
-        "https://sdk.bitmoji.com/render/panel/20047546-%s-v1.webp?transparent=1&width=512",
-        "https://sdk.bitmoji.com/render/panel/20036482-%s-v1.webp?transparent=1&width=512",
-        "https://sdk.bitmoji.com/render/panel/10214887-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/4968bda1-7f23-4283-8cf1-b59c56ea17ca-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10476cb9-3c68-4be9-ba11-d47d250803d9-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/b8f29f7f-ad24-4b8d-beb4-716d293096ec-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/20049916-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/10213910-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/10229569-%s-v1.webp?transparent=1&width=512",
@@ -44,8 +44,7 @@
         "publisher_website": "",
         "privacy_policy_website": "",
         "license_agreement_website": "",
-        "stickers": [
-            {
+        "stickers": [{
                 "image_file": "goodnight_0.webp",
                 "emojis": [
                     "☕"

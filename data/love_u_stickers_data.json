@@ -31,7 +31,7 @@
         "https://sdk.bitmoji.com/render/panel/20025471-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/20008177-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/10219246-%s-v1.webp?transparent=1&width=512",
-        "https://sdk.bitmoji.com/render/panel/9990793-%s-v1.webp?transparent=1&width=512"
+        "https://sdk.bitmoji.com/render/panel/e74b9f2f-be55-40a7-9df5-87ba61910d68-%s-v1.webp?transparent=1&width=512"
     ],
     "config": {
         "identifier": "loveu",
@@ -45,8 +45,7 @@
         "privacy_policy_website": "",
         "license_agreement_website": "",
         "stickers": [
-            [
-                {
+            [{
                     "image_file": "loveu_0.webp",
                     "emojis": [
                         "☕"

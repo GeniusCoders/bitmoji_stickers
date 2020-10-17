@@ -1,6 +1,6 @@
 {
     "identifier": "compliments",
-    "tray_icon": "https://sdk.bitmoji.com/render/panel/10226887-%s-v1.webp?transparent=1&width=96",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/ed5c9c0f-c444-4b15-b96b-a66885184e6a-%s-v1.webp?transparent=1&width=96",
     "data": [
         "https://sdk.bitmoji.com/render/panel/9635657-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/10188118-%s-v1.webp?transparent=1&width=512",
@@ -28,7 +28,7 @@
         "https://sdk.bitmoji.com/render/panel/10230977-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/10235613-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/10213083-%s-v1.webp?transparent=1&width=512",
-        "https://sdk.bitmoji.com/render/panel/20028737-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/ed5c9c0f-c444-4b15-b96b-a66885184e6a-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/7897741-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/7496923-%s-v1.webp?transparent=1&width=512"
     ],
@@ -43,8 +43,7 @@
         "publisher_website": "",
         "privacy_policy_website": "",
         "license_agreement_website": "",
-        "stickers": [
-            {
+        "stickers": [{
                 "image_file": "compliments_0.webp",
                 "emojis": [
                     "☕"

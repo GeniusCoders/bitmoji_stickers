@@ -1,6 +1,6 @@
 {
     "identifier": "sorry",
-    "tray_icon": "https://sdk.bitmoji.com/render/panel/10226887-%s-v1.webp?transparent=1&width=96",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/27c34645-4e03-42a5-bb21-c48c76fcacfe-%s-v1.webp?transparent=1&width=96",
     "data": [
         "https://sdk.bitmoji.com/render/panel/10221308-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/20036312-%s-v1.webp?transparent=1&width=512",
@@ -36,8 +36,7 @@
         "publisher_website": "",
         "privacy_policy_website": "",
         "license_agreement_website": "",
-        "stickers": [
-            {
+        "stickers": [{
                 "image_file": "sorry_0.webp",
                 "emojis": [
                     "☕"

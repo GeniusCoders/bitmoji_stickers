@@ -1,6 +1,6 @@
 {
     "identifier": "swag",
-    "tray_icon": "https://sdk.bitmoji.com/render/panel/10226887-%s-v1.webp?transparent=1&width=96",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/10234040-%s-v1.webp?transparent=1&width=96",
     "data": [
         "https://sdk.bitmoji.com/render/panel/20034155-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/9954585-%s-v1.webp?transparent=1&width=512",
@@ -44,8 +44,7 @@
         "publisher_website": "",
         "privacy_policy_website": "",
         "license_agreement_website": "",
-        "stickers": [
-            {
+        "stickers": [{
                 "image_file": "swag_0.webp",
                 "emojis": [
                     "☕"

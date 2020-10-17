@@ -65,10 +65,14 @@ class StickersApi extends StickersRepo {
         ..createSync(recursive: true)
         ..writeAsBytesSync(response.bodyBytes);
     }
-
+    print("___________________________");
+    print(stickerData.data.length);
+    print("___________________________");
     for (int i = 0; i < stickerData.data.length; i++) {
       File _stickerFile = File("${packageDirectory.path}/${identfier}_$i.webp");
-
+      print("__________________________");
+      print("${i}_______________________");
+      print("__________________________");
       if (!await _stickerFile.exists()) {
         var stickerImg = stickerData.data[i].replaceAll('%s', avatar);
         final response = await get(stickerImg);

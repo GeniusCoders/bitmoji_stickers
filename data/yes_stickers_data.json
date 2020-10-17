@@ -1,10 +1,10 @@
 {
     "identifier": "yes",
-    "tray_icon": "https://sdk.bitmoji.com/render/panel/10226887-%s-v1.webp?transparent=1&width=96",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/29dbedd6-b9b0-4dbe-a7e3-83bed1b44502-%s-v1.webp?transparent=1&width=96",
     "data": [
         "https://sdk.bitmoji.com/render/panel/10219683-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/10212727-%s-v1.webp?transparent=1&width=512",
-        "https://sdk.bitmoji.com/render/panel/20047069-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/29dbedd6-b9b0-4dbe-a7e3-83bed1b44502-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/9281517-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/20053717-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/10231306-%s-v1.webp?transparent=1&width=512",
@@ -45,8 +45,7 @@
         "privacy_policy_website": "",
         "license_agreement_website": "",
         "stickers": [
-            [
-                {
+            [{
                     "image_file": "yes_0.webp",
                     "emojis": [
                         "☕"

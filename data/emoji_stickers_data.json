@@ -1,6 +1,6 @@
 {
     "identifier": "emoji",
-    "tray_icon": "https://sdk.bitmoji.com/render/panel/10226887-%s-v1.webp?transparent=1&width=96",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/8f42bf78-97e6-4e35-8ec5-709ed099f8e9-%s-v1.webp?transparent=1&width=96",
     "data": [
         "https://sdk.bitmoji.com/render/panel/20036836-%s-v1.webp?transparent=1&width=512",
         "https://sdk.bitmoji.com/render/panel/10212036-%s-v1.webp?transparent=1&width=512",
@@ -80,8 +80,7 @@
         "publisher_website": "",
         "privacy_policy_website": "",
         "license_agreement_website": "",
-        "stickers": [
-            {
+        "stickers": [{
                 "image_file": "emoji_0.webp",
                 "emojis": [
                     "☕"
