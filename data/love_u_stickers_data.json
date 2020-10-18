@@ -45,187 +45,186 @@
         "privacy_policy_website": "",
         "license_agreement_website": "",
         "stickers": [
-            [{
-                    "image_file": "loveu_0.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_1.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_2.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_3.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_4.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_5.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_6.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_7.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_8.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_9.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_10.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_11.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_12.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_13.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_14.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_15.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_16.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_17.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_18.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_19.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_20.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_21.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_22.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_23.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_24.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_25.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_26.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_27.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_28.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "loveu_29.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                }
-            ]
+            {
+                "image_file": "loveu_0.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_1.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_2.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_3.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_4.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_5.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_6.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_7.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_8.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_9.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_10.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_11.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_12.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_13.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_14.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_15.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_16.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_17.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_18.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_19.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_20.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_21.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_22.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_23.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_24.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_25.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_26.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_27.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_28.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_29.webp",
+                "emojis": [
+                    "☕"
+                ]
+            }
         ]
     }
 }

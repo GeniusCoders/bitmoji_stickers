@@ -44,7 +44,8 @@
         "publisher_website": "",
         "privacy_policy_website": "",
         "license_agreement_website": "",
-        "stickers": [{
+        "stickers": [
+            {
                 "image_file": "hi_0.webp",
                 "emojis": [
                     "☕"
@@ -224,7 +225,6 @@
                     "☕"
                 ]
             }
-
         ]
     }
 }

@@ -45,188 +45,186 @@
         "privacy_policy_website": "",
         "license_agreement_website": "",
         "stickers": [
-            [
-                {
-                    "image_file": "lol_0.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_1.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_2.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_3.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_4.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_5.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_6.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_7.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_8.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_9.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_10.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_11.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_12.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_13.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_14.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_15.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_16.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_17.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_18.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_19.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_20.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_21.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_22.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_23.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_24.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_25.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_26.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_27.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_28.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                },
-                {
-                    "image_file": "lol_29.webp",
-                    "emojis": [
-                        "☕"
-                    ]
-                }
-            ]
+            {
+                "image_file": "lol_0.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_1.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_2.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_3.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_4.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_5.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_6.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_7.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_8.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_9.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_10.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_11.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_12.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_13.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_14.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_15.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_16.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_17.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_18.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_19.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_20.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_21.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_22.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_23.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_24.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_25.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_26.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_27.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_28.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_29.webp",
+                "emojis": [
+                    "☕"
+                ]
+            }
         ]
     }
 }
