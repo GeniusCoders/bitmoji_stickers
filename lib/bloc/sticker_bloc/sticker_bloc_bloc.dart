@@ -26,8 +26,6 @@ class StickerBloc extends Bloc<StickerBlocEvent, StickerState> {
             await stickersRepo.loadSticker(stickerPathName: event.strickerPath);
         yield StickersState(stickerResponse: data);
       } catch (e) {
-        print(e);
-        print("_____________");
         yield FailedState(error: e.toString());
       }
     }

@@ -15,25 +15,21 @@ class BannerAdView {
     testDevices: <String>[], // Android emulators are considered test devices
   );
 
-  static String adUnitId = BannerAd.testAdUnitId;
+  static String adUnitId = "ca-app-pub-3808851724738740~4287345787";
 
   static BannerAd createBannerAd(String adUnitId) {
     return BannerAd(
         adUnitId: adUnitId,
         size: AdSize.banner,
         targetingInfo: targetingInfo,
-        listener: (MobileAdEvent event) {
-          print("BannerAd $event");
-        });
+        listener: (MobileAdEvent event) {});
   }
 
   static InterstitialAd createInterstitialAd(String adUnitId) {
     return InterstitialAd(
       adUnitId: adUnitId,
       targetingInfo: targetingInfo,
-      listener: (MobileAdEvent event) {
-        print("InterstitialAd event is $event");
-      },
+      listener: (MobileAdEvent event) {},
     );
   }
 }

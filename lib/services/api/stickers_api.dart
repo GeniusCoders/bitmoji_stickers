@@ -7,6 +7,7 @@ import 'package:BitmojiStickers/services/repo/stickers_repo.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:BitmojiStickers/models/stickers_model/stickers_model.dart';
+import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:http/http.dart';
 import 'package:injectable/injectable.dart';
 import 'package:path_provider/path_provider.dart';
@@ -53,8 +54,6 @@ class StickersApi extends StickersRepo {
         Directory("${_stickerPacksDirectory.path}/$identfier")
           ..create(recursive: true);
 
-    print(stickerData.data);
-
     File _trayIconFile = File("${packageDirectory.path}/tray-icon.png");
 
     if (!await _trayIconFile.exists()) {
@@ -65,14 +64,10 @@ class StickersApi extends StickersRepo {
         ..createSync(recursive: true)
         ..writeAsBytesSync(response.bodyBytes);
     }
-    print("___________________________");
-    print(stickerData.data.length);
-    print("___________________________");
+
     for (int i = 0; i < stickerData.data.length; i++) {
       File _stickerFile = File("${packageDirectory.path}/${identfier}_$i.webp");
-      print("__________________________");
-      print("${i}_______________________");
-      print("__________________________");
+
       if (!await _stickerFile.exists()) {
         var stickerImg = stickerData.data[i].replaceAll('%s', avatar);
         final response = await get(stickerImg);
@@ -83,38 +78,39 @@ class StickersApi extends StickersRepo {
         _stickerFile
           ..createSync(recursive: true)
           ..writeAsBytesSync(response.bodyBytes);
-        print("width = ${uiImage.width}");
-        print("height = ${uiImage.height}");
-        print("_____________");
 
         if (uiImage.width > 512 || uiImage.height > 512) {
           final img.Image imageTemp = img.decodeWebP(response.bodyBytes);
           final img.Image resizeImg =
               img.copyResize(imageTemp, width: 512, height: 512);
-          img.WebPEncoder webPEncoder = img.WebPEncoder();
-          File("${packageDirectory.path}/${identfier}_$i.webp")
+
+          File("${packageDirectory.path}/${identfier}_$i.png")
             ..createSync(recursive: true)
-            ..writeAsBytesSync(webPEncoder.encodeImage(resizeImg));
+            ..writeAsBytesSync(img.encodePng(resizeImg));
+
+          FlutterImageCompress.compressAndGetFile(
+              "${packageDirectory.path}/${identfier}_$i.png",
+              "${packageDirectory.path}/${identfier}_$i.webp",
+              format: CompressFormat.webp,
+              minWidth: 512,
+              minHeight: 512,
+              quality: 90);
         }
       }
     }
 
     File packageContentsFile = File("${packageDirectory.path}/config.json");
-    print(packageDirectory.path);
     String configFileContent = jsonEncode(stickerData.config) + "\n";
     packageContentsFile.writeAsStringSync(configFileContent, flush: true);
 
-    print("packageContentsFile : _____$packageContentsFile");
     Map<String, dynamic> packageContentsMap =
         jsonDecode(await packageContentsFile.readAsString());
-    print("packageContentsMap : _____$packageContentsMap");
 
     _storedStickerPacks.removeWhere(
         (item) => item['identifier'] == packageContentsMap['identifier']);
     _storedStickerPacks.add(packageContentsMap);
 
     _stickerPacksConfig['sticker_packs'] = _storedStickerPacks;
-    print("_storedStickerPacks : _____$_storedStickerPacks");
 
     JsonEncoder encoder = new JsonEncoder.withIndent('  ');
     String contentsOfFile = encoder.convert(_stickerPacksConfig) + "\n";

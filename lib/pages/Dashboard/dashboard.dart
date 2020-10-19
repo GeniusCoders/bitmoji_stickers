@@ -20,8 +20,6 @@ class Dashboard extends StatefulWidget {
 
 class _DashboardState extends State<Dashboard> {
   BannerAd _bannerAd;
-  InterstitialAd _interstitialAd;
-  Timer timer;
 
   @override
   void initState() {
@@ -31,26 +29,12 @@ class _DashboardState extends State<Dashboard> {
     _bannerAd = BannerAdView.createBannerAd(getIt<AdsData>().bannerAd2)
       ..load()
       ..show();
-    // timer = Timer.periodic(Duration(seconds: 33), (Timer t) => _loadAd());
-  }
-
-  _loadAd() {
-    _interstitialAd =
-        BannerAdView.createInterstitialAd(getIt<AdsData>().interstitialAd1)
-          ..load()
-          ..show(
-            anchorType: AnchorType.bottom,
-            anchorOffset: 0.0,
-            horizontalCenterOffset: 0.0,
-          );
   }
 
   @override
   void dispose() {
     super.dispose();
     _bannerAd.dispose();
-    timer?.cancel();
-    _interstitialAd.dispose();
   }
 
   @override
@@ -59,9 +43,6 @@ class _DashboardState extends State<Dashboard> {
       listener: (context, state) {
         if (state is BitmojiId) {
           getIt<BitmojiIdData>().addBitmojiId(id: state.id);
-          print("_______");
-          print(state.id);
-          print("_______");
         }
       },
       builder: (context, state) => SingleChildScrollView(
@@ -71,7 +52,9 @@ class _DashboardState extends State<Dashboard> {
               children: [
                 Container(
                     padding: EdgeInsets.all(16.w),
+                    width: double.infinity,
                     child: Wrap(
+                        alignment: WrapAlignment.center,
                         children: list
                             .map((e) => BitmojiCatCard(
                                   title: e['title'],

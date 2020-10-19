@@ -42,7 +42,6 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
   BannerAd _bannerAd;
   InterstitialAd _interstitialAd;
   String _stickerPackIdentifier;
-  Timer timer;
 
   @override
   void initState() {
@@ -53,26 +52,13 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
     _bannerAd = BannerAdView.createBannerAd(getIt<AdsData>().bannerAd3)
       ..load()
       ..show();
-    timer = Timer.periodic(Duration(seconds: 33), (Timer t) => _loadAd());
     prepareFolderStructure();
-  }
-
-  _loadAd() {
-    _interstitialAd =
-        BannerAdView.createInterstitialAd(getIt<AdsData>().interstitialAd2)
-          ..load()
-          ..show(
-            anchorType: AnchorType.bottom,
-            anchorOffset: 0.0,
-            horizontalCenterOffset: 0.0,
-          );
   }
 
   @override
   void dispose() {
     super.dispose();
     _bannerAd.dispose();
-    timer?.cancel();
     _interstitialAd.dispose();
   }
 
@@ -121,7 +107,6 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
         }
         if (state is DownloadSucces) {
           _waStickers.updatedStickerPacks(_stickerPackIdentifier);
-          print("_____________________IA MA HERRR");
           _waStickers.addStickerPack(
             packageName: WhatsAppPackage.Consumer,
             stickerPackIdentifier: _stickerPackIdentifier,
@@ -134,7 +119,7 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
                 checkInstallationStatuses();
 
                 _interstitialAd = BannerAdView.createInterstitialAd(
-                    getIt<AdsData>().interstitialAd3)
+                    getIt<AdsData>().interstitialAd1)
                   ..load()
                   ..show(
                     anchorType: AnchorType.bottom,

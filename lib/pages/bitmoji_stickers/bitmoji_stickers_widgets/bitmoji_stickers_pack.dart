@@ -21,9 +21,6 @@ class _BitmojiStickersPackState extends State<BitmojiStickersPack> {
   void initState() {
     super.initState();
     avatar = getIt<BitmojiIdData>().bitmojiIdValue;
-    print("__________");
-    print(widget.data.length);
-    print("__________");
   }
 
   @override
