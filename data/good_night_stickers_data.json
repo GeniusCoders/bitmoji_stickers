@@ -45,59 +45,95 @@
         "privacy_policy_website": "",
         "license_agreement_website": "",
         "stickers": [{
-                "image_file": "goodnight_0.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "goodnight_1.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "goodnight_2.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "goodnight_3.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "goodnight_4.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "goodnight_5.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "goodnight_6.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "goodnight_7.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "goodnight_8.webp",
-                "emojis": [
-                    "☕"
-                ]
-            }
-        ]
+            "image_file": "goodnight_0.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_1.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_2.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_3.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_4.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_5.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_6.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_7.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_8.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_9.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_10.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_11.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_12.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_13.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_14.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_15.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_16.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_17.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_18.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_19.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_20.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_21.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_22.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_23.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_24.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_25.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_26.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_27.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_28.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_29.webp",
+            "emojis": ["☕"]
+        }]
     }
 }

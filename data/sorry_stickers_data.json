@@ -37,59 +37,71 @@
         "privacy_policy_website": "",
         "license_agreement_website": "",
         "stickers": [{
-                "image_file": "sorry_0.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "sorry_1.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "sorry_2.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "sorry_3.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "sorry_4.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "sorry_5.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "sorry_6.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "sorry_7.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "sorry_8.webp",
-                "emojis": [
-                    "☕"
-                ]
-            }
-        ]
+            "image_file": "sorry_0.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_1.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_2.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_3.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_4.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_5.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_6.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_7.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_8.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_9.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_10.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_11.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_12.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_13.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_14.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_15.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_16.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_17.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_18.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_19.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_20.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_21.webp",
+            "emojis": ["☕"]
+        }]
     }
 }

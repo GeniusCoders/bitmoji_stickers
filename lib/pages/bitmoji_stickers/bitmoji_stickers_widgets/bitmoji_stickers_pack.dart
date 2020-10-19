@@ -44,29 +44,41 @@ class _BitmojiStickersPackState extends State<BitmojiStickersPack> {
             ),
           ),
           Expanded(
-            child: GridView.builder(
-                gridDelegate: new SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 3,
-                  childAspectRatio: 1,
-                ),
-                itemCount: widget.data.length,
-                itemBuilder: (context, index) {
-                  var stickerImg = widget.data[index].replaceAll('%s', avatar);
-                  return Container(
-                    decoration: BoxDecoration(
-                        color: white,
-                        borderRadius: BorderRadius.circular(10.w)),
-                    margin: EdgeInsets.all(10.w),
-                    child: Padding(
-                      padding: EdgeInsets.all(4.0.w),
-                      child: Image.network(
-                        stickerImg,
-                        width: 100.w,
-                        height: 100.w,
+            child: Column(
+              children: [
+                Expanded(
+                  child: GridView.builder(
+                      shrinkWrap: true,
+                      gridDelegate:
+                          new SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: 3,
+                        childAspectRatio: 1,
                       ),
-                    ),
-                  );
-                }),
+                      itemCount: widget.data.length,
+                      itemBuilder: (context, index) {
+                        var stickerImg =
+                            widget.data[index].replaceAll('%s', avatar);
+                        return Container(
+                          decoration: BoxDecoration(
+                              color: white,
+                              borderRadius: BorderRadius.circular(10.w)),
+                          margin: EdgeInsets.all(10.w),
+                          child: Padding(
+                            padding: EdgeInsets.all(4.0.w),
+                            child: Image.network(
+                              stickerImg,
+                              width: 100.w,
+                              height: 100.w,
+                            ),
+                          ),
+                        );
+                      }),
+                ),
+                SizedBox(
+                  height: 40.h,
+                )
+              ],
+            ),
           ),
         ],
       ),

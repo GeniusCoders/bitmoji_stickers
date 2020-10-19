@@ -9,10 +9,12 @@ class BitmojiStickerHeader extends StatefulWidget {
   final onPress;
   final String stickerId;
   final String stickerName;
+  final bool isInstall;
   const BitmojiStickerHeader({
     @required this.onPress,
     @required this.stickerId,
     @required this.stickerName,
+    @required this.isInstall,
   });
 
   @override
@@ -51,7 +53,7 @@ class _BitmojiStickerHeaderState extends State<BitmojiStickerHeader> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Bitmoji Stickers ${widget.stickerName}',
+                  'BitSticker ${widget.stickerName}',
                   style: TextStyle(
                       fontWeight: FontWeight.w600,
                       fontSize: 16.sp,
@@ -60,11 +62,11 @@ class _BitmojiStickerHeaderState extends State<BitmojiStickerHeader> {
                 SizedBox(
                   height: 6.h,
                 ),
-                Text('bitmoji sticker'),
+                Text('BitSticker'),
                 SizedBox(
                   height: 16.h,
                 ),
-                Button(isInstall: false, onPress: widget.onPress)
+                Button(isInstall: widget.isInstall, onPress: widget.onPress)
               ],
             ),
           )

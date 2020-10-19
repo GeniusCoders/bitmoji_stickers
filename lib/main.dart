@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
+        title: 'BitSticker',
         theme: ThemeData(
           primarySwatch: MaterialColor(0xFF39ca8e, getSwatch(primaryColor)),
           fontFamily: 'SF UI Display',

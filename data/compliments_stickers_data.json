@@ -44,59 +44,92 @@
         "privacy_policy_website": "",
         "license_agreement_website": "",
         "stickers": [{
-                "image_file": "compliments_0.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "compliments_1.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "compliments_2.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "compliments_3.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "compliments_4.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "compliments_5.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "compliments_6.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "compliments_7.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "compliments_8.webp",
-                "emojis": [
-                    "☕"
-                ]
-            }
-        ]
+            "image_file": "compliments_0.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_1.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_2.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_3.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_4.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_5.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_6.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_7.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_8.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_9.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_10.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_11.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_12.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_13.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_14.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_15.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_16.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_17.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_18.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_19.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_20.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_21.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_22.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_23.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_24.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_25.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_26.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_27.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "compliments_28.webp",
+            "emojis": ["☕"]
+        }]
     }
 }

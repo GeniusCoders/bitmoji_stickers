@@ -1,5 +1,5 @@
 {
-    "identifier": "new",
+    "identifier": "question",
     "tray_icon": "https://sdk.bitmoji.com/render/panel/9946988-%s-v1.webp?transparent=1&width=96",
     "data": [
         "https://sdk.bitmoji.com/render/panel/7974009-%s-v1.webp?transparent=1&width=512",
@@ -27,8 +27,8 @@
         "https://sdk.bitmoji.com/render/panel/20053174-%s-v1.webp?transparent=1&width=512"
     ],
     "config": {
-        "identifier": "new",
-        "name": "BitSticker new",
+        "identifier": "question",
+        "name": "BitSticker question",
         "publisher": "BitSticker",
         "tray_image_file": "tray-icon.png",
         "image_data_version": "1",
@@ -38,59 +38,74 @@
         "privacy_policy_website": "",
         "license_agreement_website": "",
         "stickers": [{
-                "image_file": "new_0.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "new_1.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "new_2.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "new_3.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "new_4.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "new_5.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "new_6.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "new_7.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "new_8.webp",
-                "emojis": [
-                    "☕"
-                ]
-            }
-        ]
+            "image_file": "question_0.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_1.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_2.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_3.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_4.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_5.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_6.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_7.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_8.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_9.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_10.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_11.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_12.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_13.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_14.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_15.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_16.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_17.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_18.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_19.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_20.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_21.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "question_22.webp",
+            "emojis": ["☕"]
+        }]
     }
 }

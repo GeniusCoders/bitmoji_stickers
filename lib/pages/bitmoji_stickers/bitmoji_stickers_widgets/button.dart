@@ -19,7 +19,7 @@ class Button extends StatelessWidget {
             color: isInstall ? Color(0xFFcccccc) : primaryColor,
             borderRadius: BorderRadius.circular(10.w)),
         child: Text(
-          isInstall ? 'Added' : 'Add To WhatsApp',
+          isInstall ? 'Installed' : 'Add To WhatsApp',
           style: TextStyle(color: white, fontWeight: FontWeight.w600),
         ),
       ),

@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:BitmojiStickers/bloc/sticker_bloc/sticker_bloc_bloc.dart';
 import 'package:BitmojiStickers/injection.dart';
 import 'package:BitmojiStickers/models/dynamic_data/bitmoji_id.dart';
@@ -18,21 +20,37 @@ class Dashboard extends StatefulWidget {
 
 class _DashboardState extends State<Dashboard> {
   BannerAd _bannerAd;
+  InterstitialAd _interstitialAd;
+  Timer timer;
 
   @override
   void initState() {
     super.initState();
     BlocProvider.of<StickerBloc>(context).add(GetBitmojiId());
-    // FirebaseAdMob.instance.initialize(appId: BannerAdView.adUnitId);
-    // _bannerAd = BannerAdView.createBannerAd(getIt<AdsData>().bannerAd2)
-    //   ..load()
-    //   ..show();
+    FirebaseAdMob.instance.initialize(appId: BannerAdView.adUnitId);
+    _bannerAd = BannerAdView.createBannerAd(getIt<AdsData>().bannerAd2)
+      ..load()
+      ..show();
+    // timer = Timer.periodic(Duration(seconds: 33), (Timer t) => _loadAd());
+  }
+
+  _loadAd() {
+    _interstitialAd =
+        BannerAdView.createInterstitialAd(getIt<AdsData>().interstitialAd1)
+          ..load()
+          ..show(
+            anchorType: AnchorType.bottom,
+            anchorOffset: 0.0,
+            horizontalCenterOffset: 0.0,
+          );
   }
 
   @override
   void dispose() {
     super.dispose();
-    // _bannerAd.dispose();
+    _bannerAd.dispose();
+    timer?.cancel();
+    _interstitialAd.dispose();
   }
 
   @override
@@ -47,21 +65,28 @@ class _DashboardState extends State<Dashboard> {
         }
       },
       builder: (context, state) => SingleChildScrollView(
-        child: Stack(
+        child: Column(
           children: [
-            Container(
-                padding: EdgeInsets.all(16.w),
-                child: Wrap(
-                    children: list
-                        .map((e) => BitmojiCatCard(
-                              title: e['title'],
-                              urlid: e['cat_id'],
-                              backgroundColor: e['color'],
-                              pathName: e['pathName'],
-                            ))
-                        .toList())),
-            Container(
-              child: state is LoadingState ? Loading() : null,
+            Stack(
+              children: [
+                Container(
+                    padding: EdgeInsets.all(16.w),
+                    child: Wrap(
+                        children: list
+                            .map((e) => BitmojiCatCard(
+                                  title: e['title'],
+                                  urlid: e['cat_id'],
+                                  backgroundColor: e['color'],
+                                  pathName: e['pathName'],
+                                ))
+                            .toList())),
+                Container(
+                  child: state is LoadingState ? Loading() : null,
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 40.h,
             )
           ],
         ),

@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'package:BitmojiStickers/bloc/sticker_bloc/sticker_bloc_bloc.dart';
@@ -36,27 +37,43 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
   Directory _applicationDirectory;
   Directory _stickerPacksDirectory;
   File _stickerPacksConfigFile;
+  bool _stickerPackInstalled1 = false;
   Map<String, dynamic> _stickerPacksConfig;
   BannerAd _bannerAd;
+  InterstitialAd _interstitialAd;
   String _stickerPackIdentifier;
+  Timer timer;
 
   @override
   void initState() {
     super.initState();
     BlocProvider.of<StickerBloc>(context)
         .add(GetStickers(strickerPath: widget.stickerPathName));
-    // FirebaseAdMob.instance.initialize(appId: BannerAdView.adUnitId);
-    // _bannerAd = BannerAdView.createBannerAd(getIt<AdsData>().bannerAd3)
-    //   ..load()
-    //   ..show();
+    FirebaseAdMob.instance.initialize(appId: BannerAdView.adUnitId);
+    _bannerAd = BannerAdView.createBannerAd(getIt<AdsData>().bannerAd3)
+      ..load()
+      ..show();
+    timer = Timer.periodic(Duration(seconds: 33), (Timer t) => _loadAd());
     prepareFolderStructure();
+  }
+
+  _loadAd() {
+    _interstitialAd =
+        BannerAdView.createInterstitialAd(getIt<AdsData>().interstitialAd2)
+          ..load()
+          ..show(
+            anchorType: AnchorType.bottom,
+            anchorOffset: 0.0,
+            horizontalCenterOffset: 0.0,
+          );
   }
 
   @override
   void dispose() {
-    // TODO: implement dispose
     super.dispose();
-    // _bannerAd.dispose();
+    _bannerAd.dispose();
+    timer?.cancel();
+    _interstitialAd.dispose();
   }
 
   void prepareFolderStructure() async {
@@ -77,6 +94,15 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
     }
   }
 
+  void checkInstallationStatuses() async {
+    bool installed1 =
+        await _waStickers.isStickerPackInstalled(_stickerPackIdentifier);
+
+    setState(() {
+      _stickerPackInstalled1 = installed1;
+    });
+  }
+
   void downloadAndStore(String identifier) async {
     BlocProvider.of<StickerBloc>(context).add(DownloadAndStore(
         stickerData: _stickerData,
@@ -91,6 +117,7 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
         if (state is StickersState) {
           _stickerData = state.stickerResponse;
           _stickerPackIdentifier = state.stickerResponse.identifier;
+          checkInstallationStatuses();
         }
         if (state is DownloadSucces) {
           _waStickers.updatedStickerPacks(_stickerPackIdentifier);
@@ -104,7 +131,16 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
               result: result,
               error: error,
               successCallback: () {
-                print("HELLO______________________");
+                checkInstallationStatuses();
+
+                _interstitialAd = BannerAdView.createInterstitialAd(
+                    getIt<AdsData>().interstitialAd3)
+                  ..load()
+                  ..show(
+                    anchorType: AnchorType.bottom,
+                    anchorOffset: 0.0,
+                    horizontalCenterOffset: 0.0,
+                  );
               },
               context: context,
             ),
@@ -121,6 +157,7 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
                     onPress: () => downloadAndStore(_stickerPackIdentifier),
                     stickerId: widget.stickerId,
                     stickerName: widget.stickerName,
+                    isInstall: _stickerPackInstalled1,
                   ),
                   _stickerData == null
                       ? Container(

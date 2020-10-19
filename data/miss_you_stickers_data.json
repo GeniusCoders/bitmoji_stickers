@@ -33,59 +33,59 @@
         "privacy_policy_website": "",
         "license_agreement_website": "",
         "stickers": [{
-                "image_file": "missyou_0.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "missyou_1.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "missyou_2.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "missyou_3.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "missyou_4.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "missyou_5.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "missyou_6.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "missyou_7.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "missyou_8.webp",
-                "emojis": [
-                    "☕"
-                ]
-            }
-        ]
+            "image_file": "missyou_0.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_1.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_2.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_3.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_4.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_5.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_6.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_7.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_8.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_9.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_10.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_11.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_12.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_13.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_14.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_15.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_16.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_17.webp",
+            "emojis": ["☕"]
+        }]
     }
 }

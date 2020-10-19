@@ -91,10 +91,10 @@ class StickersApi extends StickersRepo {
           final img.Image imageTemp = img.decodeWebP(response.bodyBytes);
           final img.Image resizeImg =
               img.copyResize(imageTemp, width: 512, height: 512);
-
-          File("${packageDirectory.path}/${identfier}_$i.web")
+          img.WebPEncoder webPEncoder = img.WebPEncoder();
+          File("${packageDirectory.path}/${identfier}_$i.webp")
             ..createSync(recursive: true)
-            ..writeAsBytesSync(img.encodePng(resizeImg));
+            ..writeAsBytesSync(webPEncoder.encodeImage(resizeImg));
         }
       }
     }

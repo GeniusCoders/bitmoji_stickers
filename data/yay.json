@@ -45,59 +45,95 @@
         "privacy_policy_website": "",
         "license_agreement_website": "",
         "stickers": [{
-                "image_file": "yay_0.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "yay_1.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "yay_2.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "yay_3.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "yay_4.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "yay_5.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "yay_6.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "yay_7.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "yay_8.webp",
-                "emojis": [
-                    "☕"
-                ]
-            }
-        ]
+            "image_file": "yay_0.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_1.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_2.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_3.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_4.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_5.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_6.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_7.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_8.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_9.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_10.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_11.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_12.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_13.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_14.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_15.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_16.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_17.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_18.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_19.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_20.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_21.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_22.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_23.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_24.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_25.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_26.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_27.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_28.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_29.webp",
+            "emojis": ["☕"]
+        }]
     }
 }

@@ -45,59 +45,95 @@
         "privacy_policy_website": "",
         "license_agreement_website": "",
         "stickers": [{
-                "image_file": "wow_0.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "wow_1.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "wow_2.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "wow_3.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "wow_4.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "wow_5.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "wow_6.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "wow_7.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "wow_8.webp",
-                "emojis": [
-                    "☕"
-                ]
-            }
-        ]
+            "image_file": "wow_0.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_1.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_2.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_3.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_4.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_5.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_6.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_7.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_8.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_9.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_10.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_11.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_12.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_13.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_14.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_15.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_16.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_17.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_18.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_19.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_20.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_21.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_22.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_23.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_24.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_25.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_26.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_27.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_28.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_29.webp",
+            "emojis": ["☕"]
+        }]
     }
 }

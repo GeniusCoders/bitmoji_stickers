@@ -45,59 +45,95 @@
         "privacy_policy_website": "",
         "license_agreement_website": "",
         "stickers": [{
-                "image_file": "mad_0.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "mad_1.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "mad_2.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "mad_3.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "mad_4.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "mad_5.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "mad_6.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "mad_7.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "mad_8.webp",
-                "emojis": [
-                    "☕"
-                ]
-            }
-        ]
+            "image_file": "mad_0.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_1.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_2.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_3.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_4.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_5.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_6.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_7.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_8.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_9.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_10.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_11.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_12.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_13.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_14.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_15.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_16.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_17.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_18.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_19.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_20.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_21.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_22.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_23.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_24.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_25.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_26.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_27.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_28.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_29.webp",
+            "emojis": ["☕"]
+        }]
     }
 }

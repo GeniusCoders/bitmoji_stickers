@@ -27,59 +27,41 @@
         "privacy_policy_website": "",
         "license_agreement_website": "",
         "stickers": [{
-                "image_file": "travel_0.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "travel_1.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "travel_2.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "travel_3.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "travel_4.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "travel_5.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "travel_6.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "travel_7.webp",
-                "emojis": [
-                    "☕"
-                ]
-            },
-            {
-                "image_file": "travel_8.webp",
-                "emojis": [
-                    "☕"
-                ]
-            }
-        ]
+            "image_file": "travel_0.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "travel_1.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "travel_2.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "travel_3.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "travel_4.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "travel_5.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "travel_6.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "travel_7.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "travel_8.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "travel_9.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "travel_10.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "travel_11.webp",
+            "emojis": ["☕"]
+        }]
     }
 }
