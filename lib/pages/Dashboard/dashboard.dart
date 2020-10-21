@@ -190,5 +190,5 @@ List<Map<String, dynamic>> list = [
     "pathName": 'travel'
   },
   {"cat_id": "20006618", "title": "Wow", "color": purple, "pathName": 'wow'},
-  {"cat_id": "20007228", "title": "Yay", "color": green, "pathName": 'yay'},
+  // {"cat_id": "20007228", "title": "Yay", "color": green, "pathName": 'yay'},
 ];

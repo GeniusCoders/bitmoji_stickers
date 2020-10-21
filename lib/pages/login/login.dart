@@ -9,6 +9,7 @@ import 'package:firebase_admob/firebase_admob.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'login_widgets/login_bitmoji.dart';
 
 class Login extends StatefulWidget {
@@ -42,7 +43,8 @@ class _LoginState extends State<Login> {
   _onPress() {
     FocusScope.of(context).requestFocus(FocusNode());
     BlocProvider.of<LoginBloc>(context).add(LoginButtonEvent(
-        email: _emailController.text, password: _passwordController.text));
+        email: _emailController.text.trim(),
+        password: _passwordController.text));
   }
 
   @override
@@ -148,10 +150,28 @@ class _LoginState extends State<Login> {
                                   fontWeight: FontWeight.w600),
                             ),
                           ),
-                        )
+                        ),
                       ],
                     ),
                   ),
+                  SizedBox(height: 20.h),
+                  Text("Don't have an account? "),
+                  SizedBox(
+                    height: 10.h,
+                  ),
+                  InkWell(
+                    onTap: () {
+                      launch(
+                          'https://play.google.com/store/apps/details?id=com.bitstrips.imoji&hl=en');
+                    },
+                    child: Text(
+                      'Donwload Bitmoji App and Signup',
+                      style: TextStyle(
+                          fontSize: 16.sp,
+                          fontWeight: FontWeight.w600,
+                          color: primaryColor),
+                    ),
+                  )
                 ],
               ),
             ),

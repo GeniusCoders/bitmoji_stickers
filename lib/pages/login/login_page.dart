@@ -12,7 +12,7 @@ class LoginPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "LOGIN",
+          "Bitmoji Login",
           style: TextStyle(color: white, letterSpacing: .6),
         ),
       ),

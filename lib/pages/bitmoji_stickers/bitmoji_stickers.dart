@@ -71,7 +71,8 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
     if (!await _stickerPacksConfigFile.exists()) {
       _stickerPacksConfigFile.createSync(recursive: true);
       _stickerPacksConfig = {
-        "android_play_store_link": "",
+        "android_play_store_link":
+            "https://play.google.com/store/apps/details?id=com.geniuscoders.bitstickers&hl=en",
         "ios_app_store_link": "",
         "sticker_packs": [],
       };

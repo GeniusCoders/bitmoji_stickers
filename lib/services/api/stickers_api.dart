@@ -68,34 +68,35 @@ class StickersApi extends StickersRepo {
     for (int i = 0; i < stickerData.data.length; i++) {
       File _stickerFile = File("${packageDirectory.path}/${identfier}_$i.webp");
 
-      if (!await _stickerFile.exists()) {
-        var stickerImg = stickerData.data[i].replaceAll('%s', avatar);
-        final response = await get(stickerImg);
+      var stickerImg = stickerData.data[i].replaceAll('%s', avatar);
+      final response = await get(stickerImg);
 
-        final codec = await instantiateImageCodec(response.bodyBytes);
-        final frame = await codec.getNextFrame();
-        final uiImage = frame.image;
-        _stickerFile
+      final codec = await instantiateImageCodec(response.bodyBytes);
+      final frame = await codec.getNextFrame();
+      final uiImage = frame.image;
+      _stickerFile
+        ..createSync(recursive: true)
+        ..writeAsBytesSync(response.bodyBytes);
+
+      if (uiImage.width > 512 ||
+          uiImage.height > 512 ||
+          uiImage.width < 512 ||
+          uiImage.height < 512) {
+        final img.Image imageTemp = img.decodeWebP(response.bodyBytes);
+        final img.Image resizeImg =
+            img.copyResize(imageTemp, width: 512, height: 512);
+
+        File("${packageDirectory.path}/${identfier}_$i.png")
           ..createSync(recursive: true)
-          ..writeAsBytesSync(response.bodyBytes);
+          ..writeAsBytesSync(img.encodePng(resizeImg));
 
-        if (uiImage.width > 512 || uiImage.height > 512) {
-          final img.Image imageTemp = img.decodeWebP(response.bodyBytes);
-          final img.Image resizeImg =
-              img.copyResize(imageTemp, width: 512, height: 512);
-
-          File("${packageDirectory.path}/${identfier}_$i.png")
-            ..createSync(recursive: true)
-            ..writeAsBytesSync(img.encodePng(resizeImg));
-
-          FlutterImageCompress.compressAndGetFile(
-              "${packageDirectory.path}/${identfier}_$i.png",
-              "${packageDirectory.path}/${identfier}_$i.webp",
-              format: CompressFormat.webp,
-              minWidth: 512,
-              minHeight: 512,
-              quality: 90);
-        }
+        FlutterImageCompress.compressAndGetFile(
+            "${packageDirectory.path}/${identfier}_$i.png",
+            "${packageDirectory.path}/${identfier}_$i.webp",
+            format: CompressFormat.webp,
+            minWidth: 512,
+            minHeight: 512,
+            quality: 90);
       }
     }
 

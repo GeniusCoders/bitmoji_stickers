@@ -39,6 +39,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'BitSticker',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: MaterialColor(0xFF39ca8e, getSwatch(primaryColor)),
           fontFamily: 'SF UI Display',
