@@ -1,0 +1,139 @@
+{
+    "identifier": "yay",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/20007228-%s-v1.webp?transparent=1&width=96",
+    "data": [
+        "https://sdk.bitmoji.com/render/panel/20007228-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9990684-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10221939-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20050948-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20010207-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10117671-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10212402-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10232990-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10211715-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10213821-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10222653-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9853640-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20022694-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9936863-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10117679-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10215341-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20002943-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20053424-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/7258102-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10226894-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10149736-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10213084-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20052908-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/9946964-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10228341-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10222894-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10221488-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20006990-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/10211507-%s-v1.webp?transparent=1&scale=0",
+        "https://sdk.bitmoji.com/render/panel/20046590-%s-v1.webp?transparent=1&scale=0"
+    ],
+    "config": {
+        "identifier": "yay",
+        "name": "BitSticker yay",
+        "publisher": "BitSticker",
+        "tray_image_file": "tray-icon.png",
+        "image_data_version": "1",
+        "avoid_cache": false,
+        "publisher_email": "",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [{
+            "image_file": "yay_0.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_1.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_2.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_3.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_4.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_5.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_6.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_7.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_8.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_9.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_10.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_11.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_12.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_13.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_14.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_15.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_16.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_17.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_18.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_19.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_20.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_21.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_22.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_23.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_24.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_25.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_26.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_27.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_28.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "yay_29.webp",
+            "emojis": ["☕"]
+        }]
+    }
+}

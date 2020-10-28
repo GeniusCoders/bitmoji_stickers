@@ -1,0 +1,230 @@
+{
+    "identifier": "lol",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/10226887-%s-v1.webp?transparent=1&width=96",
+    "data": [
+        "https://sdk.bitmoji.com/render/panel/20049906-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20036416-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10212134-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10212618-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20037520-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20007941-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20010194-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20048117-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20037024-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20049503-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10224589-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20051717-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10218409-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20034131-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/7724190-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20049028-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20050965-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10226887-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9130155-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10235725-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10226311-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10212992-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10214011-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10022003-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20036411-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10235623-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20048600-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10212404-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10221921-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10219348-%s-v1.webp?transparent=1&width=512"
+    ],
+    "config": {
+        "identifier": "lol",
+        "name": "BitSticker Lol",
+        "publisher": "BitSticker",
+        "tray_image_file": "tray-icon.png",
+        "image_data_version": "1",
+        "avoid_cache": false,
+        "publisher_email": "",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+            {
+                "image_file": "lol_0.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_1.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_2.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_3.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_4.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_5.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_6.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_7.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_8.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_9.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_10.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_11.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_12.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_13.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_14.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_15.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_16.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_17.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_18.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_19.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_20.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_21.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_22.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_23.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_24.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_25.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_26.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_27.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_28.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "lol_29.webp",
+                "emojis": [
+                    "☕"
+                ]
+            }
+        ]
+    }
+}

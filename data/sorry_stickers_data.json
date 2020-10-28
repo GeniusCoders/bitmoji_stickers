@@ -1,0 +1,107 @@
+{
+    "identifier": "sorry",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/27c34645-4e03-42a5-bb21-c48c76fcacfe-%s-v1.webp?transparent=1&width=96",
+    "data": [
+        "https://sdk.bitmoji.com/render/panel/10221308-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20036312-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/7197345-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10211962-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20030793-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10187987-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10231300-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/7834597-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10226859-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20003568-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10216702-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20037376-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20003588-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20008983-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20054675-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10176555-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20003921-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9822335-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10231297-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10232149-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20004458-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10229940-%s-v1.webp?transparent=1&width=512"
+    ],
+    "config": {
+        "identifier": "sorry",
+        "name": "BitSticker Sorry",
+        "publisher": "BitSticker",
+        "tray_image_file": "tray-icon.png",
+        "image_data_version": "1",
+        "avoid_cache": false,
+        "publisher_email": "",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [{
+            "image_file": "sorry_0.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_1.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_2.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_3.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_4.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_5.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_6.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_7.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_8.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_9.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_10.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_11.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_12.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_13.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_14.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_15.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_16.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_17.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_18.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_19.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_20.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "sorry_21.webp",
+            "emojis": ["☕"]
+        }]
+    }
+}

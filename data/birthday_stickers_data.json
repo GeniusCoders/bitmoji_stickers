@@ -1,0 +1,230 @@
+{
+    "identifier": "birthday",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/7673c023-6a1c-4ead-a0d7-4fa27059e754-%s-v1.webp?transparent=1&width=96",
+    "data": [
+        "https://sdk.bitmoji.com/render/panel/8363891-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20050480-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10221940-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10188128-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20006995-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20008901-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10102514-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20011472-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9621243-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/8298416-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/7860262-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20006994-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20028688-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10214354-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10134294-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20036410-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20010203-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20036937-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20051519-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10216479-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10224369-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10228108-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10220907-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10221353-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10227286-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10161767-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10228109-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10218286-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10220063-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10228110-%s-v1.webp?transparent=1&width=512"
+    ],
+    "config": {
+        "identifier": "birthday",
+        "name": "BitSticker Birthday",
+        "publisher": "BitSticker",
+        "tray_image_file": "tray-icon.png",
+        "image_data_version": "1",
+        "avoid_cache": false,
+        "publisher_email": "",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+            {
+                "image_file": "birthday_0.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_1.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_2.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_3.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_4.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_5.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_6.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_7.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_8.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_9.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_10.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_11.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_12.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_13.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_14.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_15.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_16.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_17.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_18.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_19.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_20.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_21.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_22.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_23.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_24.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_25.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_26.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_27.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_28.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "birthday_29.webp",
+                "emojis": [
+                    "☕"
+                ]
+            }
+        ]
+    }
+}

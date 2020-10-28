@@ -1,0 +1,230 @@
+{
+    "identifier": "loveu",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/e74b9f2f-be55-40a7-9df5-87ba61910d68-%s-v1.webp?transparent=1&width=96",
+    "data": [
+        "https://sdk.bitmoji.com/render/panel/20052006-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10229995-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10155231-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10227485-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20039339-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10219884-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20047544-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20048349-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20036891-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20036995-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10226496-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10226492-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10187904-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10219100-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10225584-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9941596-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20047044-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10214722-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/7717972-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10139105-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20002967-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9666156-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20051163-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9946267-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10058753-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10226787-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20025471-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20008177-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10219246-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/e74b9f2f-be55-40a7-9df5-87ba61910d68-%s-v1.webp?transparent=1&width=512"
+    ],
+    "config": {
+        "identifier": "loveu",
+        "name": "BitSticker Love You",
+        "publisher": "BitSticker Sticker",
+        "tray_image_file": "tray-icon.png",
+        "image_data_version": "1",
+        "avoid_cache": false,
+        "publisher_email": "",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+            {
+                "image_file": "loveu_0.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_1.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_2.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_3.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_4.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_5.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_6.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_7.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_8.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_9.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_10.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_11.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_12.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_13.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_14.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_15.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_16.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_17.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_18.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_19.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_20.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_21.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_22.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_23.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_24.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_25.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_26.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_27.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_28.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "loveu_29.webp",
+                "emojis": [
+                    "☕"
+                ]
+            }
+        ]
+    }
+}

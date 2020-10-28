@@ -1,0 +1,230 @@
+{
+    "identifier": "buzzoff",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/10217043-%s-v1.webp?transparent=1&width=96",
+    "data": [
+        "https://sdk.bitmoji.com/render/panel/10226861-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20037256-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/8549765-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/8508539-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/8809905-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9073921-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10188068-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10215958-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9954509-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/8942754-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9352262-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9940204-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9459082-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10019031-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9886128-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10099542-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10039954-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10141991-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10176552-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10205875-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10211763-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10211964-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10214871-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10215342-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10215989-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10215977-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10217130-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10217043-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10216285-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10217369-%s-v1.webp?transparent=1&width=512"
+    ],
+    "config": {
+        "identifier": "buzzoff",
+        "name": "BitSticker buzzoff",
+        "publisher": "BitSticker",
+        "tray_image_file": "tray-icon.png",
+        "image_data_version": "1",
+        "avoid_cache": false,
+        "publisher_email": "",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+            {
+                "image_file": "buzzoff_0.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_1.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_2.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_3.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_4.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_5.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_6.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_7.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_8.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_9.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_10.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_11.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_12.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_13.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_14.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_15.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_16.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_17.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_18.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_19.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_20.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_21.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_22.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_23.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_24.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_25.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_26.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_27.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_28.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "buzzoff_29.webp",
+                "emojis": [
+                    "☕"
+                ]
+            }
+        ]
+    }
+}

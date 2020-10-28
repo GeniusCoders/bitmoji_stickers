@@ -1,0 +1,139 @@
+{
+    "identifier": "goodnight",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/20047175-%s-v1.webp?transparent=1&width=96",
+    "data": [
+        "https://sdk.bitmoji.com/render/panel/4968bda1-7f23-4283-8cf1-b59c56ea17ca-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10476cb9-3c68-4be9-ba11-d47d250803d9-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/b8f29f7f-ad24-4b8d-beb4-716d293096ec-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20049916-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10213910-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10229569-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10213848-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20047546-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20050200-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20036482-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10214887-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20049916-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10227482-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10203378-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10224477-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9725229-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20007004-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20034137-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20047200-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10218410-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20047202-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20029297-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10211963-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20053191-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10221844-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20050211-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20007750-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20051503-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20015947-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20047175-%s-v1.webp?transparent=1&width=512"
+    ],
+    "config": {
+        "identifier": "goodnight",
+        "name": "BitSticker GoodNight",
+        "publisher": "BitSticker",
+        "tray_image_file": "tray-icon.png",
+        "image_data_version": "1",
+        "avoid_cache": false,
+        "publisher_email": "",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [{
+            "image_file": "goodnight_0.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_1.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_2.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_3.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_4.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_5.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_6.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_7.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_8.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_9.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_10.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_11.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_12.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_13.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_14.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_15.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_16.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_17.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_18.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_19.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_20.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_21.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_22.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_23.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_24.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_25.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_26.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_27.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_28.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodnight_29.webp",
+            "emojis": ["☕"]
+        }]
+    }
+}

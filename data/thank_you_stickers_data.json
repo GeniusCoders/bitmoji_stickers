@@ -1,0 +1,230 @@
+{
+    "identifier": "thankyou",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/6fbe273c-e60a-4cb1-88bb-7bd645d40b97-%s-v1.webp?transparent=1&width=96",
+    "data": [
+        "https://sdk.bitmoji.com/render/panel/20003929-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20002515-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/6fbe273c-e60a-4cb1-88bb-7bd645d40b97-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20037246-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20032886-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20032952-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10117710-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/7897753-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9998023-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10212616-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20002519-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20002942-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9954386-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10212734-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9941638-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20002945-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20002952-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9941956-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20045897-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10219066-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20002989-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20027621-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20042240-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9945113-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10220061-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10208401-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10228334-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20009375-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20042243-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20003403-%s-v1.webp?transparent=1&width=512"
+    ],
+    "config": {
+        "identifier": "thankyou",
+        "name": "BitSticker Thank You",
+        "publisher": "BitSticker",
+        "tray_image_file": "tray-icon.png",
+        "image_data_version": "1",
+        "avoid_cache": false,
+        "publisher_email": "",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+            {
+                "image_file": "thankyou_0.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_1.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_2.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_3.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_4.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_5.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_6.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_7.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_8.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_9.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_10.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_11.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_12.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_13.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_14.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_15.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_16.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_17.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_18.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_19.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_20.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_21.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_22.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_23.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_24.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_25.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_26.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_27.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_28.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "thankyou_29.webp",
+                "emojis": [
+                    "☕"
+                ]
+            }
+        ]
+    }
+}

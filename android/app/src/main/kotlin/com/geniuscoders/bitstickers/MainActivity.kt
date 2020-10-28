@@ -1,4 +1,4 @@
-package com.geniuscoders.BitmojiStickers
+package com.geniuscoders.bitstickers
 
 import io.flutter.embedding.android.FlutterActivity
 

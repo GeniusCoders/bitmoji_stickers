@@ -1,0 +1,139 @@
+{
+    "identifier": "wow",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/20006618-%s-v1.webp?transparent=1&width=96",
+    "data": [
+        "https://sdk.bitmoji.com/render/panel/20040165-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20035139-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20028191-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10187728-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10226312-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10219347-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20023466-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9483696-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10212459-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9946080-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20006618-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10229943-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9941680-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10231298-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10225588-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10233699-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10229094-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10117853-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10224131-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10223287-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10217026-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10218200-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10216981-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10217270-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20041433-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10213819-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10224259-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9990897-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10212132-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/7834112-%s-v1.webp?transparent=1&width=512"
+    ],
+    "config": {
+        "identifier": "wow",
+        "name": "BitSticker wow",
+        "publisher": "BitSticker",
+        "tray_image_file": "tray-icon.png",
+        "image_data_version": "1",
+        "avoid_cache": false,
+        "publisher_email": "",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [{
+            "image_file": "wow_0.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_1.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_2.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_3.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_4.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_5.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_6.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_7.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_8.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_9.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_10.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_11.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_12.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_13.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_14.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_15.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_16.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_17.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_18.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_19.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_20.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_21.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_22.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_23.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_24.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_25.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_26.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_27.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_28.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "wow_29.webp",
+            "emojis": ["☕"]
+        }]
+    }
+}

@@ -1,0 +1,230 @@
+{
+    "identifier": "hi",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/10219680-%s-v1.webp?transparent=1&width=96",
+    "data": [
+        "https://sdk.bitmoji.com/render/panel/10219680-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20037298-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10192295-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20007529-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20007889-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20053175-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10215118-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10211671-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/7974012-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10205843-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9945232-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9352187-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10019034-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10226548-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9955001-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20008540-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20008173-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10222157-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10224680-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20015316-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20006410-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10226815-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10231590-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10219392-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10187800-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10217028-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10187770-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/8149728-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10235317-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9941941-%s-v1.webp?transparent=1&width=512"
+    ],
+    "config": {
+        "identifier": "hi",
+        "name": "BitSticker Hi",
+        "publisher": "BitSticker",
+        "tray_image_file": "tray-icon.png",
+        "image_data_version": "1",
+        "avoid_cache": false,
+        "publisher_email": "",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+            {
+                "image_file": "hi_0.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_1.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_2.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_3.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_4.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_5.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_6.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_7.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_8.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_9.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_10.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_11.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_12.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_13.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_14.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_15.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_16.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_17.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_18.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_19.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_20.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_21.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_22.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_23.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_24.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_25.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_26.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_27.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_28.webp",
+                "emojis": [
+                    "☕"
+                ]
+            },
+            {
+                "image_file": "hi_29.webp",
+                "emojis": [
+                    "☕"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "identifier": "mad",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/10222032-%s-v1.webp?transparent=1&width=96",
+    "data": [
+        "https://sdk.bitmoji.com/render/panel/20020402-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20037081-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/8067828-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20052906-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10214012-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10224760-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20037117-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10215437-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10222032-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9090071-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10221125-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10212505-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10235320-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/7973976-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20006404-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10232327-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10188002-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9543030-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10176517-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10224368-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20043090-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20004605-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10217909-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10226853-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20007945-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20004463-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10220963-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20006993-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10223201-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20018481-%s-v1.webp?transparent=1&width=512"
+    ],
+    "config": {
+        "identifier": "mad",
+        "name": "BitSticker Mad",
+        "publisher": "BitSticker",
+        "tray_image_file": "tray-icon.png",
+        "image_data_version": "1",
+        "avoid_cache": false,
+        "publisher_email": "",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [{
+            "image_file": "mad_0.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_1.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_2.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_3.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_4.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_5.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_6.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_7.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_8.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_9.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_10.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_11.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_12.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_13.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_14.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_15.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_16.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_17.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_18.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_19.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_20.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_21.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_22.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_23.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_24.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_25.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_26.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_27.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_28.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "mad_29.webp",
+            "emojis": ["☕"]
+        }]
+    }
+}

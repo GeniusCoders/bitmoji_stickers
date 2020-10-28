@@ -1,0 +1,91 @@
+{
+    "identifier": "missyou",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/e0fdbbb4-0188-49f9-9a25-3102a827ad12-%s-v1.webp?transparent=1&width=96",
+    "data": [
+        "https://sdk.bitmoji.com/render/panel/10226867-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20037063-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/7548803-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20039308-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9940596-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10234372-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/7897747-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10218968-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10187940-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20034175-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10205884-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/e0fdbbb4-0188-49f9-9a25-3102a827ad12-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9991736-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10178725-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9419230-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10218509-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10219103-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10229211-%s-v1.webp?transparent=1&width=512"
+    ],
+    "config": {
+        "identifier": "missyou",
+        "name": "BitSticker Miss You",
+        "publisher": "BitSticker",
+        "tray_image_file": "tray-icon.png",
+        "image_data_version": "1",
+        "avoid_cache": false,
+        "publisher_email": "",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [{
+            "image_file": "missyou_0.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_1.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_2.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_3.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_4.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_5.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_6.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_7.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_8.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_9.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_10.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_11.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_12.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_13.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_14.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_15.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_16.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "missyou_17.webp",
+            "emojis": ["☕"]
+        }]
+    }
+}

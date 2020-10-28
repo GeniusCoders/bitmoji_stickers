@@ -1,0 +1,103 @@
+{
+    "identifier": "goodmorning",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/b3381b64-4717-4e0a-8999-e73f02cd4693-%s-v1.webp?transparent=1&width=96",
+    "data": [
+        "https://sdk.bitmoji.com/render/panel/10221297-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20008548-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20048063-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10211508-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10215115-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20050314-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20036596-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20036595-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10227491-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20046051-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20006989-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20033227-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10220058-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20036852-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20047244-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9946099-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10224150-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20049930-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10218404-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20048342-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20047230-%s-v1.webp?transparent=1&width=512"
+    ],
+    "config": {
+        "identifier": "goodmorning",
+        "name": "BitSticker GoodMorning",
+        "publisher": "BitSticker",
+        "tray_image_file": "tray-icon.png",
+        "image_data_version": "1",
+        "avoid_cache": false,
+        "publisher_email": "",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [{
+            "image_file": "goodmorning_0.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_1.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_2.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_3.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_4.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_5.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_6.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_7.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_8.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_9.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_10.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_11.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_12.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_13.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_14.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_15.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_16.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_17.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_18.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_19.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "goodmorning_20.webp",
+            "emojis": ["☕"]
+        }]
+    }
+}

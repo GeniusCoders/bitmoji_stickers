@@ -1,0 +1,139 @@
+{
+    "identifier": "swag",
+    "tray_icon": "https://sdk.bitmoji.com/render/panel/10234040-%s-v1.webp?transparent=1&width=96",
+    "data": [
+        "https://sdk.bitmoji.com/render/panel/20034155-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9954585-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10216867-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10234038-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10234037-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10234040-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10234041-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20009284-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/8600484-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10219858-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10221583-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10219955-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10224759-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10229929-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10229963-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10231470-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10231471-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10231294-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20008549-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/10231469-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20028205-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20042702-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20052909-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20053960-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20037335-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20037393-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/8375309-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9988980-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/20042286-%s-v1.webp?transparent=1&width=512",
+        "https://sdk.bitmoji.com/render/panel/9188354-%s-v1.webp?transparent=1&width=512"
+    ],
+    "config": {
+        "identifier": "swag",
+        "name": "BitSticker swag",
+        "publisher": "BitSticker",
+        "tray_image_file": "tray-icon.png",
+        "image_data_version": "1",
+        "avoid_cache": false,
+        "publisher_email": "",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [{
+            "image_file": "swag_0.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_1.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_2.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_3.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_4.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_5.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_6.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_7.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_8.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_9.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_10.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_11.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_12.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_13.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_14.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_15.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_16.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_17.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_18.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_19.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_20.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_21.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_22.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_23.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_24.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_25.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_26.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_27.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_28.webp",
+            "emojis": ["☕"]
+        }, {
+            "image_file": "swag_29.webp",
+            "emojis": ["☕"]
+        }]
+    }
+}
