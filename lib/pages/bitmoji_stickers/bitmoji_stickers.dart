@@ -1,4 +1,3 @@
-import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'package:BitmojiStickers/bloc/sticker_bloc/sticker_bloc_bloc.dart';
@@ -6,13 +5,13 @@ import 'package:BitmojiStickers/models/dynamic_data/bitmoji_id.dart';
 import 'package:BitmojiStickers/models/stickers_model/stickers_model.dart';
 import 'package:BitmojiStickers/pages/loading/loading.dart';
 import 'package:BitmojiStickers/util/ads/ads_data/ads_data.dart';
-import 'package:BitmojiStickers/util/ads/baner_adview.dart';
 import 'package:BitmojiStickers/util/utils.dart';
-import 'package:firebase_admob/firebase_admob.dart';
+import 'package:admob_flutter/admob_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_whatsapp_stickers/flutter_whatsapp_stickers.dart';
 import 'package:path_provider/path_provider.dart';
+import '../../util/ads/ads_data/ads_data.dart';
 import 'bitmoji_stickers_widgets/bitmoji_sticker_header.dart';
 import 'bitmoji_stickers_widgets/bitmoji_stickers_pack.dart';
 import '../../injection.dart';
@@ -39,8 +38,9 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
   File _stickerPacksConfigFile;
   bool _stickerPackInstalled1 = false;
   Map<String, dynamic> _stickerPacksConfig;
-  BannerAd _bannerAd;
-  InterstitialAd _interstitialAd;
+  AdmobInterstitial _interstitialAd;
+  AdmobReward _rewardAd;
+
   String _stickerPackIdentifier;
 
   @override
@@ -48,18 +48,22 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
     super.initState();
     BlocProvider.of<StickerBloc>(context)
         .add(GetStickers(strickerPath: widget.stickerPathName));
-    FirebaseAdMob.instance.initialize(appId: BannerAdView.adUnitId);
-    _bannerAd = BannerAdView.createBannerAd(getIt<AdsData>().bannerAd3)
-      ..load()
-      ..show();
-    prepareFolderStructure();
-  }
+    _interstitialAd = AdmobInterstitial(
+      adUnitId: getIt<AdsData>().interstitialAd1,
+      listener: (AdmobAdEvent event, Map<String, dynamic> args) {
+        if (event == AdmobAdEvent.closed) _interstitialAd.load();
+      },
+    );
+    _rewardAd = AdmobReward(
+      adUnitId: getIt<AdsData>().rewardAd1,
+      listener: (AdmobAdEvent event, Map<String, dynamic> args) {
+        if (event == AdmobAdEvent.closed) _rewardAd.load();
+      },
+    );
+    _interstitialAd.load();
+    _rewardAd.load();
 
-  @override
-  void dispose() {
-    super.dispose();
-    _bannerAd.dispose();
-    _interstitialAd.dispose();
+    prepareFolderStructure();
   }
 
   void prepareFolderStructure() async {
@@ -116,17 +120,12 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
               action: action,
               result: result,
               error: error,
-              successCallback: () {
+              successCallback: () async {
                 checkInstallationStatuses();
-
-                _interstitialAd = BannerAdView.createInterstitialAd(
-                    getIt<AdsData>().interstitialAd1)
-                  ..load()
-                  ..show(
-                    anchorType: AnchorType.bottom,
-                    anchorOffset: 0.0,
-                    horizontalCenterOffset: 0.0,
-                  );
+                if (await _rewardAd.isLoaded) {
+                  _rewardAd.show();
+                  _interstitialAd.show();
+                }
               },
               context: context,
             ),
@@ -151,8 +150,9 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
                         )
                       : Expanded(
                           child: BitmojiStickersPack(
-                          data: _stickerData.data,
-                        ))
+                            data: _stickerData.data,
+                          ),
+                        ),
                 ],
               ),
             ),
@@ -163,5 +163,12 @@ class _BitmojiStickersState extends State<BitmojiStickers> {
         );
       },
     );
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+    _interstitialAd.dispose();
+    _rewardAd.dispose();
   }
 }

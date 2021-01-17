@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "782381800168",
+    "firebase_url": "https://bitsticker.firebaseio.com",
+    "project_id": "bitsticker",
+    "storage_bucket": "bitsticker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782381800168:android:f3f3f789216491a839c75d",
+        "android_client_info": {
+          "package_name": "com.geniuscoders.bitstickers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782381800168-e51uuf5ba2em1fakq5lm1vbo3ka1cjh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiw__58Gb5QOTjrQXWAOyeLYauIbAeTec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782381800168-e51uuf5ba2em1fakq5lm1vbo3ka1cjh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

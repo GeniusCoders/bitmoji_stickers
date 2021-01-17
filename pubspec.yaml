@@ -23,23 +23,25 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
+  admob_flutter: ^1.0.1
   cupertino_icons: ^0.1.3
-  flutter_screenutil: ^2.3.1
+  dio: ^3.0.10
+  esys_flutter_share: ^1.0.2
+  firebase_analytics: ^6.3.0
+  firebase_core: ^0.5.3
+  firebase_crashlytics: ^0.2.4
   flutter_bloc: ^6.0.2
   flutter_image_compress: ^0.7.0
-  http: ^0.12.2
-  path_provider: ^1.6.18
+  flutter_screenutil: ^2.3.1
   flutter_whatsapp_stickers: ^1.0.0+4
-  image: ^2.1.18
+  font_awesome_flutter: ^8.11.0
   get_it: ^4.0.2
+  http: ^0.12.2
+  image: ^2.1.18
   injectable: ^0.3.0
-  shared_preferences: ^0.5.7+3
+  path_provider: ^1.6.18
   rxdart: ^0.24.1
-  firebase_admob: ^0.10.0+2
-  dio: ^3.0.10
+  shared_preferences: ^0.5.7+3
   url_launcher: ^5.7.5
 
 dev_dependencies:
@@ -85,4 +87,3 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
-

@@ -25,7 +25,7 @@ class LoginBloc extends Bloc<LoginEvent, LoginState> {
       if (error != null) {
         yield LoginFailed(error: error.getErrorMessage());
       } else {
-        yield LoginSuccess();
+        yield LoginSuccess(avatarID: response.data);
       }
     }
   }

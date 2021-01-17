@@ -13,4 +13,8 @@ class LoginFailed extends LoginState {
   LoginFailed({@required this.error});
 }
 
-class LoginSuccess extends LoginState {}
+class LoginSuccess extends LoginState {
+  final String avatarID;
+
+  LoginSuccess({@required this.avatarID});
+}

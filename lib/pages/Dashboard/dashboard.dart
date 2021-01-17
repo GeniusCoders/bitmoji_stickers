@@ -1,13 +1,8 @@
-import 'dart:async';
-
 import 'package:BitmojiStickers/bloc/sticker_bloc/sticker_bloc_bloc.dart';
 import 'package:BitmojiStickers/injection.dart';
 import 'package:BitmojiStickers/models/dynamic_data/bitmoji_id.dart';
 import 'package:BitmojiStickers/pages/loading/loading.dart';
 import 'package:BitmojiStickers/styles/colors.dart';
-import 'package:BitmojiStickers/util/ads/ads_data/ads_data.dart';
-import 'package:BitmojiStickers/util/ads/baner_adview.dart';
-import 'package:firebase_admob/firebase_admob.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -19,22 +14,10 @@ class Dashboard extends StatefulWidget {
 }
 
 class _DashboardState extends State<Dashboard> {
-  BannerAd _bannerAd;
-
   @override
   void initState() {
     super.initState();
     BlocProvider.of<StickerBloc>(context).add(GetBitmojiId());
-    FirebaseAdMob.instance.initialize(appId: BannerAdView.adUnitId);
-    _bannerAd = BannerAdView.createBannerAd(getIt<AdsData>().bannerAd2)
-      ..load()
-      ..show();
-  }
-
-  @override
-  void dispose() {
-    super.dispose();
-    _bannerAd.dispose();
   }
 
   @override
@@ -68,9 +51,6 @@ class _DashboardState extends State<Dashboard> {
                 ),
               ],
             ),
-            SizedBox(
-              height: 40.h,
-            )
           ],
         ),
       ),
