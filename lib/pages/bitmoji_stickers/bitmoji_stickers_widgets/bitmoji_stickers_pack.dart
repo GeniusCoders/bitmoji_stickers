@@ -71,9 +71,6 @@ class _BitmojiStickersPackState extends State<BitmojiStickersPack> {
                         );
                       }),
                 ),
-                SizedBox(
-                  height: 40.h,
-                )
               ],
             ),
           ),

@@ -2,10 +2,12 @@ import 'package:BitmojiStickers/bloc/sticker_bloc/sticker_bloc_bloc.dart';
 import 'package:BitmojiStickers/pages/bitmoji_stickers/bitmoji_stickers.dart';
 import 'package:BitmojiStickers/services/repo/stickers_repo.dart';
 import 'package:BitmojiStickers/styles/colors.dart';
+import 'package:BitmojiStickers/widgets/admob_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../injection.dart';
+import '../../util/ads/ads_data/ads_data.dart';
 
 class BitmojiStickerPage extends StatelessWidget {
   final String stickerPathName;
@@ -30,6 +32,9 @@ class BitmojiStickerPage extends StatelessWidget {
           stickerName,
           style: TextStyle(color: white),
         ),
+      ),
+      bottomNavigationBar: AdmobWidget(
+        admobUnit: getIt<AdsData>().bannerAd3,
       ),
       body: BlocProvider<StickerBloc>(
         create: (context) => StickerBloc(stickersRepo: getIt<StickersRepo>()),

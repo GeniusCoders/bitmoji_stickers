@@ -25,7 +25,8 @@ class UserApi extends UserRepo {
   }
 
   @override
-  Future<BaseModel> signIn(String email, String password) async {
+  Future<BaseModel<String>> signIn(String email, String password) async {
+    var avatarJson;
     try {
       final loginUrl = "https://api.bitmoji.com/user/login";
       final avatartUrl = "https://api.bitmoji.com/user/avatar";
@@ -79,7 +80,7 @@ class UserApi extends UserRepo {
               headers: avatarHeaders,
             ));
 
-        final avatarJson = avatarRes.data;
+        avatarJson = avatarRes.data;
 
         final SharedPreferences prefs = await _prefs;
         prefs.setString('data', avatarJson['avatar_version_uuid']);
@@ -92,6 +93,6 @@ class UserApi extends UserRepo {
     } catch (e) {
       return BaseModel()..setException(ServerError.withError(error: e));
     }
-    return BaseModel()..data = [];
+    return BaseModel()..data = avatarJson['avatar_version_uuid'];
   }
 }
