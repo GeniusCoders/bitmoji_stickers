@@ -3,16 +3,13 @@ import 'package:BitmojiStickers/bloc/sticker_bloc/sticker_bloc_bloc.dart';
 import 'package:BitmojiStickers/models/dynamic_data/bitmoji_id.dart';
 import 'package:BitmojiStickers/pages/Dashboard/dashboard.dart';
 import 'package:BitmojiStickers/styles/colors.dart';
-import 'package:BitmojiStickers/widgets/admob_widget.dart';
-import 'package:esys_flutter_share/esys_flutter_share.dart';
-import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:http/http.dart' as http;
 import 'package:url_launcher/url_launcher.dart';
+
 import '../../injection.dart';
-import '../../util/ads/ads_data/ads_data.dart';
 
 class DashboardPage extends StatefulWidget {
   @override
@@ -20,7 +17,7 @@ class DashboardPage extends StatefulWidget {
 }
 
 class _DashboardPageState extends State<DashboardPage> {
-  final FirebaseAnalytics _firebaseAnalytics = FirebaseAnalytics();
+  // final FirebaseAnalytics _firebaseAnalytics = FirebaseAnalytics();
 
   _onLogout() {
     BlocProvider.of<AuthBloc>(context).add(Logout());
@@ -31,14 +28,15 @@ class _DashboardPageState extends State<DashboardPage> {
   _onShare() async {
     final _bitmojiID = getIt<BitmojiIdData>().bitmojiIdValue;
     final bytes = await http.get(
-      'https://sdk.bitmoji.com/render/panel/10219680-$_bitmojiID-v1.webp?transparent=1&width=',
+      Uri.parse(
+          'https://sdk.bitmoji.com/render/panel/10219680-$_bitmojiID-v1.webp?transparent=1&width='),
     );
     var pngBytes = bytes.bodyBytes;
-    await Share.file(
-        'Bitmoji Sticker', 'bitmojiSticker.png', pngBytes, 'image/png',
-        text: "Download Bitmoji Sticker App");
-    await _firebaseAnalytics.logShare(
-        contentType: 'Image', itemId: _bitmojiID, method: '');
+    // await Share.file(
+    //     'Bitmoji Sticker', 'bitmojiSticker.png', pngBytes, 'image/png',
+    //     text: "Download Bitmoji Sticker App");
+    // await _firebaseAnalytics.logShare(
+    //     contentType: 'Image', itemId: _bitmojiID, method: '');
   }
 
   _onDonate() {
@@ -74,9 +72,6 @@ class _DashboardPageState extends State<DashboardPage> {
               ),
               onPressed: _onLogout),
         ],
-      ),
-      bottomNavigationBar: AdmobWidget(
-        admobUnit: getIt<AdsData>().bannerAd2,
       ),
       body: MultiBlocProvider(providers: [
         BlocProvider<StickerBloc>(create: (context) => getIt<StickerBloc>()),

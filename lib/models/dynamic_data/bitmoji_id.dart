@@ -9,7 +9,7 @@ class BitmojiIdData {
 
   String get bitmojiIdValue => _id.value;
 
-  addBitmojiId({String id}) {
+  addBitmojiId({required String id}) {
     _id.add(id);
   }
 }

@@ -6,7 +6,7 @@ abstract class StickerBlocEvent {}
 class GetStickers extends StickerBlocEvent {
   final String strickerPath;
 
-  GetStickers({this.strickerPath});
+  GetStickers({required this.strickerPath});
 }
 
 class DownloadAndStore extends StickerBlocEvent {
@@ -15,9 +15,9 @@ class DownloadAndStore extends StickerBlocEvent {
   final String avatar;
 
   DownloadAndStore(
-      {@required this.identifier,
-      @required this.stickerData,
-      @required this.avatar});
+      {required this.identifier,
+      required this.stickerData,
+      required this.avatar});
 }
 
 class GetBitmojiId extends StickerBlocEvent {}

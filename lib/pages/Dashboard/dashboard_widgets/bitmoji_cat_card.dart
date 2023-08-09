@@ -12,7 +12,10 @@ class BitmojiCatCard extends StatelessWidget {
   final Color backgroundColor;
   final String pathName;
   const BitmojiCatCard(
-      {this.urlid, this.title, @required this.backgroundColor, this.pathName});
+      {required this.urlid,
+      required this.title,
+      required this.backgroundColor,
+      required this.pathName});
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +52,7 @@ class BitmojiCatCard extends StatelessWidget {
                 stream: getIt<BitmojiIdData>().bitmojiId$,
                 builder: (context, snapshot) {
                   if (snapshot.hasData) {
-                    String _id = snapshot.data;
+                    String _id = snapshot.data ?? '';
                     return Container(
                       width: 100.w,
                       height: 100.w,

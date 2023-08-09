@@ -1,27 +1,25 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
-import 'dart:typed_data';
 import 'dart:ui';
-import 'package:BitmojiStickers/services/repo/stickers_repo.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+
 import 'package:BitmojiStickers/models/stickers_model/stickers_model.dart';
+import 'package:BitmojiStickers/services/repo/stickers_repo.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:http/http.dart';
+import 'package:image/image.dart' as img;
 import 'package:injectable/injectable.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:image/image.dart' as img;
 
-@lazySingleton
-@RegisterAs(StickersRepo)
+@Injectable(as: StickersRepo)
 class StickersApi extends StickersRepo {
   final Future<SharedPreferences> _prefs;
 
   StickersApi(this._prefs);
   @override
-  Future<StickerResponse> loadSticker({String stickerPathName}) async {
+  Future<StickerResponse> loadSticker({required String stickerPathName}) async {
     final file = await rootBundle.loadString('data/$stickerPathName.json');
     final jsonResponse = json.decode(file);
     return StickerResponse.fromJson(jsonResponse);
@@ -33,14 +31,14 @@ class StickersApi extends StickersRepo {
     prefs.reload();
     final data = prefs.getString('data');
 
-    return data;
+    return Future(() => data ?? "");
   }
 
   @override
   Future<bool> dowloadStickers(
-      {@required StickerResponse stickerData,
-      @required String identfier,
-      @required String avatar}) async {
+      {required StickerResponse stickerData,
+      required String identfier,
+      required String avatar}) async {
     final _applicationDirectory = await getApplicationDocumentsDirectory();
     final _stickerPacksDirectory =
         Directory("${_applicationDirectory.path}/sticker_packs");
@@ -57,18 +55,18 @@ class StickersApi extends StickersRepo {
     File _trayIconFile = File("${packageDirectory.path}/tray-icon.png");
 
     if (!await _trayIconFile.exists()) {
-      final stickerImg = stickerData.trayImg.replaceAll('%s', avatar);
-      final response = await get(stickerImg);
+      final stickerImg = stickerData.trayImg!.replaceAll('%s', avatar);
+      final response = await get(Uri.parse(stickerImg));
 
       _trayIconFile
         ..createSync(recursive: true)
         ..writeAsBytesSync(response.bodyBytes);
     }
 
-    for (int i = 0; i < stickerData.data.length; i++) {
+    for (int i = 0; i < stickerData.data!.length; i++) {
       File _stickerFile = File("${packageDirectory.path}/${identfier}_$i.webp");
 
-      var stickerImg = stickerData.data[i].replaceAll('%s', avatar);
+      var stickerImg = stickerData.data![i].replaceAll('%s', avatar);
       final response = await get(stickerImg);
 
       final codec = await instantiateImageCodec(response.bodyBytes);
@@ -82,7 +80,7 @@ class StickersApi extends StickersRepo {
           uiImage.height > 512 ||
           uiImage.width < 512 ||
           uiImage.height < 512) {
-        final img.Image imageTemp = img.decodeWebP(response.bodyBytes);
+        final img.Image imageTemp = img.decodeWebPFile(response.bodyBytes);
         final img.Image resizeImg =
             img.copyResize(imageTemp, width: 512, height: 512);
 

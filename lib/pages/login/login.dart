@@ -1,17 +1,12 @@
 import 'package:BitmojiStickers/bloc/login_bloc/login_bloc.dart';
-import 'package:BitmojiStickers/injection.dart';
-import 'package:BitmojiStickers/models/dynamic_data/bitmoji_id.dart';
 import 'package:BitmojiStickers/pages/Dashboard/dashboard_page.dart';
 import 'package:BitmojiStickers/pages/loading/loading.dart';
-import 'package:BitmojiStickers/pages/login/login_screens/public_bitmoji_page.dart';
 import 'package:BitmojiStickers/styles/colors.dart';
-import 'package:BitmojiStickers/util/ads/ads_data/ads_data.dart';
-import 'package:BitmojiStickers/widgets/admob_widget.dart';
-import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:url_launcher/url_launcher.dart';
+
 import 'login_widgets/login_bitmoji.dart';
 
 class Login extends StatefulWidget {
@@ -21,9 +16,9 @@ class Login extends StatefulWidget {
 
 class _LoginState extends State<Login> {
   bool _isPasswordhide = true;
-  final FirebaseAnalytics analytics = FirebaseAnalytics();
-  TextEditingController _emailController;
-  TextEditingController _passwordController;
+  // final FirebaseAnalytics analytics = FirebaseAnalytics();
+  late TextEditingController _emailController;
+  late TextEditingController _passwordController;
   @override
   void initState() {
     super.initState();
@@ -44,13 +39,13 @@ class _LoginState extends State<Login> {
     return BlocConsumer<LoginBloc, LoginState>(
         listener: (context, state) async {
       if (state is LoginSuccess) {
-        await analytics.setUserId(state.avatarID);
+        // await analytics.setUserId(state.avatarID);
         Navigator.of(context).pushAndRemoveUntil(
             MaterialPageRoute(builder: (context) => DashboardPage()),
             (Route<dynamic> route) => false);
       }
       if (state is LoginFailed) {
-        Scaffold.of(context).showSnackBar(SnackBar(
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(
           content: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [Expanded(child: Text(state.error)), Icon(Icons.error)],

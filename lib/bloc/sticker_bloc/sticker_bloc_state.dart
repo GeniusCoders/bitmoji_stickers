@@ -10,19 +10,19 @@ class LoadingState extends StickerState {}
 class FailedState extends StickerState {
   final String error;
 
-  FailedState({@required this.error});
+  FailedState({required this.error});
 }
 
 class StickersState extends StickerState {
   final StickerResponse stickerResponse;
 
-  StickersState({@required this.stickerResponse});
+  StickersState({required this.stickerResponse});
 }
 
 class BitmojiId extends StickerState {
   final String id;
 
-  BitmojiId({@required this.id});
+  BitmojiId({required this.id});
 }
 
 class DownloadSucces extends StickerState {}

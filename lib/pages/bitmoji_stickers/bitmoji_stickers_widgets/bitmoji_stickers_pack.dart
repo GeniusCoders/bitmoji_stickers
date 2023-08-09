@@ -8,14 +8,14 @@ import '../../../injection.dart';
 class BitmojiStickersPack extends StatefulWidget {
   final List<dynamic> data;
 
-  const BitmojiStickersPack({@required this.data});
+  const BitmojiStickersPack({required this.data});
 
   @override
   _BitmojiStickersPackState createState() => _BitmojiStickersPackState();
 }
 
 class _BitmojiStickersPackState extends State<BitmojiStickersPack> {
-  String avatar;
+  String? avatar;
 
   @override
   void initState() {

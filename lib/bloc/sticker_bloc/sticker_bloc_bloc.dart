@@ -13,7 +13,7 @@ part 'sticker_bloc_state.dart';
 class StickerBloc extends Bloc<StickerBlocEvent, StickerState> {
   final StickersRepo stickersRepo;
 
-  StickerBloc({@required this.stickersRepo}) : super(StickerBlocInitial());
+  StickerBloc({required this.stickersRepo}) : super(StickerBlocInitial());
 
   @override
   Stream<StickerState> mapEventToState(

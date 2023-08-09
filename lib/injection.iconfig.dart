@@ -12,7 +12,7 @@ import 'package:BitmojiStickers/bloc/auth_bloc/auth_bloc.dart';
 import 'package:BitmojiStickers/bloc/login_bloc/login_bloc.dart';
 import 'package:get_it/get_it.dart';
 
-void $initGetIt(GetIt g, {String environment}) {
+void $initGetIt(GetIt g, {String? environment}) {
   final registerModule = _$RegisterModule();
   g.registerLazySingleton<BitmojiIdData>(() => BitmojiIdData());
   g.registerLazySingleton<AdsData>(() => AdsData());

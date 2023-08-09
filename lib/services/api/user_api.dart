@@ -4,8 +4,7 @@ import 'package:dio/dio.dart';
 import 'package:injectable/injectable.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-@lazySingleton
-@RegisterAs(UserRepo)
+@Injectable(as: UserRepo)
 class UserApi extends UserRepo {
   final Future<SharedPreferences> _prefs;
   final Dio dio;

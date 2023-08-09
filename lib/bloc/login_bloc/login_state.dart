@@ -10,11 +10,11 @@ class LoginLoading extends LoginState {}
 class LoginFailed extends LoginState {
   final String error;
 
-  LoginFailed({@required this.error});
+  LoginFailed({required this.error});
 }
 
 class LoginSuccess extends LoginState {
   final String avatarID;
 
-  LoginSuccess({@required this.avatarID});
+  LoginSuccess({required this.avatarID});
 }

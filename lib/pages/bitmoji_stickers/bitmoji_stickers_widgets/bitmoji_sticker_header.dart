@@ -11,10 +11,10 @@ class BitmojiStickerHeader extends StatefulWidget {
   final String stickerName;
   final bool isInstall;
   const BitmojiStickerHeader({
-    @required this.onPress,
-    @required this.stickerId,
-    @required this.stickerName,
-    @required this.isInstall,
+    required this.onPress,
+    required this.stickerId,
+    required this.stickerName,
+    required this.isInstall,
   });
 
   @override

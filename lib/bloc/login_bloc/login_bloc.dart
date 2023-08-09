@@ -12,7 +12,7 @@ part 'login_state.dart';
 @injectable
 class LoginBloc extends Bloc<LoginEvent, LoginState> {
   final UserRepo userRepo;
-  LoginBloc({@required this.userRepo}) : super(LoginInitial());
+  LoginBloc({required this.userRepo}) : super(LoginInitial());
 
   @override
   Stream<LoginState> mapEventToState(

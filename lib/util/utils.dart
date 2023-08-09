@@ -3,17 +3,19 @@ import 'package:flutter/material.dart';
 import 'package:flutter_whatsapp_stickers/flutter_whatsapp_stickers.dart';
 
 Future<void> processResponse(
-    {StickerPackResult action,
-    bool result,
-    String error,
-    BuildContext context,
-    Function successCallback}) async {
+    {required StickerPackResult action,
+    required bool result,
+    required String error,
+    required BuildContext context,
+    required Function successCallback}) async {
   print("_listener");
   print(action);
   print(result);
   print(error);
 
-  SnackBar snackBar;
+  SnackBar snackBar = SnackBar(
+    content: Text(""),
+  );
 
   switch (action) {
     case StickerPackResult.SUCCESS:
@@ -33,7 +35,5 @@ Future<void> processResponse(
   }
 
   /// Display a snack bar
-  if (snackBar != null && context != null) {
-    Scaffold.of(context).showSnackBar(snackBar);
-  }
+  ScaffoldMessenger.of(context).showSnackBar(snackBar);
 }

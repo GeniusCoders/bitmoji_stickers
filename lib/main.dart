@@ -3,14 +3,11 @@ import 'package:BitmojiStickers/pages/Dashboard/dashboard_page.dart';
 import 'package:BitmojiStickers/pages/login/login_page.dart';
 import 'package:BitmojiStickers/pages/splash/splash.dart';
 import 'package:BitmojiStickers/styles/colors.dart';
-import 'package:admob_flutter/admob_flutter.dart';
-import 'package:firebase_analytics/firebase_analytics.dart';
-import 'package:firebase_analytics/observer.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_screenutil/screenutil.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'bloc/auth_bloc/auth_bloc.dart';
 import 'injection.dart';
@@ -33,7 +30,6 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   Bloc.observer = SimpleBlocObserver();
   configure('env');
-  Admob.initialize();
   await Firebase.initializeApp();
 
   FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterError;
@@ -54,13 +50,12 @@ class MyApp extends StatelessWidget {
         fontFamily: 'SF UI Display',
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      navigatorObservers: [
-        FirebaseAnalyticsObserver(analytics: FirebaseAnalytics()),
-      ],
       home: Builder(
         builder: (context) {
-          ScreenUtil.init(context,
-              width: 360.0, height: 780.0, allowFontScaling: false);
+          ScreenUtil.init(
+            context,
+            designSize: Size(360.0, 780.0),
+          );
 
           return BlocBuilder<AuthBloc, AuthState>(
             builder: (context, state) {

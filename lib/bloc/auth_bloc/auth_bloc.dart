@@ -11,7 +11,7 @@ part 'auth_state.dart';
 @injectable
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
   final UserRepo userRepo;
-  AuthBloc({@required this.userRepo}) : super(AuthInitial());
+  AuthBloc({required this.userRepo}) : super(AuthInitial());
 
   @override
   Stream<AuthState> mapEventToState(
